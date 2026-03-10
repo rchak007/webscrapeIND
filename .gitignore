@@ -1,0 +1,49 @@
+# Data files
+data/per_village/
+data/ALL_prohibited_properties_*
+data/scrape_progress.json
+data/master_list_progress_rural.json
+data/*.csv
+data/*.xlsx
+data/*.log
+data/OLD/
+
+# Logs
+*.log
+
+# Debug/screenshots
+*.png
+debug_*.py
+debug_*.html
+error_*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Conda/venv
+.conda/
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private notes
+privREADME.MD
+
+*:Zone.Identifier
