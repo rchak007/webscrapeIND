@@ -1,0 +1,549 @@
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W2] Starting — 6 districts, 2981 locations
+[W0] Starting Chrome...
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W2] Starting Chrome...
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W1] Starting Chrome...
+[W3] Starting Chrome...
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W0] Starting Chrome...
+[W2] Starting Chrome...
+
+[W1] [23:07:56] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+
+[W0] [23:07:57] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+
+[W3] [23:08:00] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W2] FATAL ERROR: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 146.0.7680.31 with binary path /home/rchak007/.cache/selenium/chrome/linux64/146.0.7680.31/chrome
+Stacktrace:
+#0 0x64df987254e3 <unknown>
+#1 0x64df98454c76 <unknown>
+#2 0x64df9848204a <unknown>
+#3 0x64df9847d4a1 <unknown>
+#4 0x64df9847a029 <unknown>
+#5 0x64df984b8ccc <unknown>
+#6 0x64df984b847f <unknown>
+#7 0x64df984afde3 <unknown>
+#8 0x64df984852dd <unknown>
+#9 0x64df9848634e <unknown>
+#10 0x64df986e53e4 <unknown>
+#11 0x64df986e93d7 <unknown>
+#12 0x64df986f3b20 <unknown>
+#13 0x64df986ea023 <unknown>
+#14 0x64df986b81aa <unknown>
+#15 0x64df9870e6b8 <unknown>
+#16 0x64df9870e847 <unknown>
+#17 0x64df9871e243 <unknown>
+#18 0x7af1a0094ac3 <unknown>
+
+
+[W2] ═══ FINISHED: 0 locations, 0 rows, 0 errors, time: 0:01:32 ═══
+
+  Worker 2 completed: {'worker_id': 2, 'scraped': 0, 'rows': 0, 'errors': 0}
+[W0] ✓ 155 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        3
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 3 workers:
+    Worker 0: 9 districts, ~4845 locations — ['SRIKAKULAM', 'CHITTOOR', 'SPSR NELLORE', 'SRI SATHYA SAI', 'KAKINADA', 'WEST GODAVARI', 'ANNAMAYYA', 'ANANTAPUR', 'VISAKHAPATNAM']
+    Worker 1: 9 districts, ~3992 locations — ['TIRUPATI', 'YSR KADAPA', 'ELURU', 'KURNOOL', 'PALNADU', 'NTR', 'EAST GODAVARI', 'BAPATLA', 'ANAKAPALLI']
+    Worker 2: 8 districts, ~3783 locations — ['VIZIANAGARAM', 'PARVATIPURAM MANYAM', 'KRISHNA', 'NANDYAL', 'PRAKASAM', 'MARKAPURAM', 'KONASEEMA', 'GUNTUR']
+
+============================================================
+  LAUNCHING 3 WORKERS
+============================================================
+
+
+[W1] Starting — 9 districts, 4725 locations
+[W1] Districts: ['TIRUPATI', 'YSR KADAPA', 'ELURU', 'KURNOOL', 'PALNADU', 'NTR', 'EAST GODAVARI', 'BAPATLA', 'ANAKAPALLI']
+
+[W0] Starting — 9 districts, 5117 locations
+[W0] Districts: ['SRIKAKULAM', 'CHITTOOR', 'SPSR NELLORE', 'SRI SATHYA SAI', 'KAKINADA', 'WEST GODAVARI', 'ANNAMAYYA', 'ANANTAPUR', 'VISAKHAPATNAM']
+
+[W2] Starting — 8 districts, 3783 locations
+[W2] Districts: ['VIZIANAGARAM', 'PARVATIPURAM MANYAM', 'KRISHNA', 'NANDYAL', 'PRAKASAM', 'MARKAPURAM', 'KONASEEMA', 'GUNTUR']
+[W2] Starting Chrome...
+[W0] Starting Chrome...
+[W1] Starting Chrome...
+
+[W0] [23:36:42] (19.2% overall) ANANTAPUR → PAMIDI → RAMARAJUPALLE
+
+[W1] [23:36:42] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+
+[W2] [23:36:42] (19.2% overall) GUNTUR → CHEBROLE → CHEBROLE
+[W0] ✓ 204 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        3
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 3 workers:
+    Worker 0: 9 districts, ~4845 locations — ['SRIKAKULAM', 'CHITTOOR', 'SPSR NELLORE', 'SRI SATHYA SAI', 'KAKINADA', 'WEST GODAVARI', 'ANNAMAYYA', 'ANANTAPUR', 'VISAKHAPATNAM']
+    Worker 1: 9 districts, ~3992 locations — ['TIRUPATI', 'YSR KADAPA', 'ELURU', 'KURNOOL', 'PALNADU', 'NTR', 'EAST GODAVARI', 'BAPATLA', 'ANAKAPALLI']
+    Worker 2: 8 districts, ~3783 locations — ['VIZIANAGARAM', 'PARVATIPURAM MANYAM', 'KRISHNA', 'NANDYAL', 'PRAKASAM', 'MARKAPURAM', 'KONASEEMA', 'GUNTUR']
+
+============================================================
+  LAUNCHING 3 WORKERS
+============================================================
+
+
+[W0] Starting — 9 districts, 5117 locations
+[W0] Districts: ['SRIKAKULAM', 'CHITTOOR', 'SPSR NELLORE', 'SRI SATHYA SAI', 'KAKINADA', 'WEST GODAVARI', 'ANNAMAYYA', 'ANANTAPUR', 'VISAKHAPATNAM']
+[W0] Starting Chrome...
+
+[W1] Starting — 9 districts, 4725 locations
+[W1] Districts: ['TIRUPATI', 'YSR KADAPA', 'ELURU', 'KURNOOL', 'PALNADU', 'NTR', 'EAST GODAVARI', 'BAPATLA', 'ANAKAPALLI']
+
+[W2] Starting — 8 districts, 3783 locations
+[W2] Districts: ['VIZIANAGARAM', 'PARVATIPURAM MANYAM', 'KRISHNA', 'NANDYAL', 'PRAKASAM', 'MARKAPURAM', 'KONASEEMA', 'GUNTUR']
+[W2] Starting Chrome...
+[W1] Starting Chrome...
+
+[W2] [01:02:58] (19.2% overall) GUNTUR → CHEBROLE → CHEBROLE
+
+[W0] [01:02:58] (19.2% overall) ANANTAPUR → PAMIDI → RAMARAJUPALLE
+
+[W1] [01:02:58] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W0] ✓ 204 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W0] Starting Chrome...
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W2] Starting — 6 districts, 2981 locations
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W2] Starting Chrome...
+[W1] Starting Chrome...
+[W3] Starting Chrome...
+
+[W3] [00:59:28] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+
+[W1] [00:59:28] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+
+[W0] [00:59:28] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+
+[W2] [00:59:28] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W0] ✗ Page failed to load
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W0] Starting Chrome...
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+[W2] Starting Chrome...
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W3] [23:54:20] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+
+[W1] [23:54:20] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+
+[W2] [23:54:20] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+
+[W0] [23:54:20] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0] ✓ 155 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W3] Starting Chrome...
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W0] Starting Chrome...
+[W2] Starting Chrome...
+[W1] Starting Chrome...
+
+[W0] [10:28:55] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+
+[W2] [10:28:55] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+
+[W3] [10:28:55] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+
+[W1] [10:28:57] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W0] ✓ 155 rows

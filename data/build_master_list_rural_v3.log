@@ -1,0 +1,1052 @@
+  Resuming: 16 districts done, 8490 records
+  Headless: False
+============================================================
+
+  Getting district list...
+  ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+  Found 27 total districts
+
+  [1/27] ALLURI SITHARAMA RAJU — already done, skipping
+
+  [2/27] ANAKAPALLI — already done, skipping
+
+  [3/27] ANANTAPUR — already done, skipping
+
+  [4/27] ANNAMAYYA — already done, skipping
+
+  [5/27] BAPATLA — already done, skipping
+
+  [6/27] CHITTOOR — already done, skipping
+
+  [7/27] EAST GODAVARI — already done, skipping
+
+  [8/27] ELURU — already done, skipping
+
+  [9/27] GUNTUR — already done, skipping
+
+  [10/27] KAKINADA — already done, skipping
+
+  [11/27] KONASEEMA — already done, skipping
+
+  [12/27] KRISHNA — already done, skipping
+
+  [13/27] KURNOOL — already done, skipping
+
+  [14/27] MARKAPURAM — already done, skipping
+
+  [15/27] NANDYAL — already done, skipping
+
+  [16/27] NTR — already done, skipping
+
+  [17/27] District: PALNADU
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 28 mandals
+    [1/28] Mandal: ACHAMPETA — 18 villages
+    [2/28] Mandal: AMARAVATHI — 17 villages
+    [3/28] Mandal: BELLAMKONDA — 13 villages
+    [4/28] Mandal: BOLLAPALLE — 14 villages
+    [5/28] Mandal: CHILAKALURIPET — 17 villages
+    [6/28] Mandal: DACHEPALLE — 12 villages
+    [7/28] Mandal: DURGI — 10 villages
+    [8/28] Mandal: EDLAPADU — 10 villages
+    [9/28] Mandal: GURAZALA — 10 villages
+    [10/28] Mandal: IPURU — 13 villages
+    [11/28] Mandal: KAREMPUDI — 11 villages
+    [12/28] Mandal: KROSURU — 15 villages
+    [13/28] Mandal: MACHAVARAM — 9 villages
+    [14/28] Mandal: MACHERLA — 10 villages
+    [15/28] Mandal: MUPPALLA — 10 villages
+    [16/28] Mandal: NADENDLA — 11 villages
+    [17/28] Mandal: NAKARIKALLU — 10 villages
+    [18/28] Mandal: NARASARAOPETA — 18 villages
+    [19/28] Mandal: NUZENDLA — 21 villages
+    [20/28] Mandal: PEDAKURAPADU — 14 villages
+    [21/28] Mandal: PIDUGURALLA — 10 villages
+    [22/28] Mandal: RAJUPALEM — 8 villages
+    [23/28] Mandal: RENTACHINTALA — 10 villages
+    [24/28] Mandal: ROMPICHERLA — 14 villages
+    [25/28] Mandal: SATTENAPALLE — 19 villages
+    [26/28] Mandal: SAVALYAPURAM — 7 villages
+    [27/28] Mandal: VELDURTHI — 9 villages
+    [28/28] Mandal: VINUKONDA — 24 villages
+    ✓ Progress saved (8854 total records)
+    Browser closed for PALNADU
+
+  [18/27] District: PARVATIPURAM MANYAM
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 15 mandals
+    [1/15] Mandal: BALAJIPETA — 34 villages
+    [2/15] Mandal: BHAMINI — 22 villages
+    [3/15] Mandal: GARUGUBILLI — 34 villages
+    [4/15] Mandal: GUMMALAKSHMIPURAM — 5 villages
+    [5/15] Mandal: JIYYAMMA VALASA — 51 villages
+    [6/15] Mandal: KOMARADA — 67 villages
+    [7/15] Mandal: KURUPAM — 67 villages
+    [8/15] Mandal: MAKKUVA — 34 villages
+    [9/15] Mandal: PACHIPENTA — 54 villages
+    [10/15] Mandal: PALAKONDA — 46 villages
+    [11/15] Mandal: PARVATHIPURAM — 55 villages
+    [12/15] Mandal: SALUR — 90 villages
+    [13/15] Mandal: SEETHAMPETA — 10 villages
+    [14/15] Mandal: SEETHANAGARAM — 44 villages
+    [15/15] Mandal: VEERAGHATTAM — 41 villages
+    ✓ Progress saved (9508 total records)
+    Browser closed for PARVATIPURAM MANYAM
+
+  [19/27] District: PRAKASAM
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 18 mandals
+    [1/18] Mandal: CHIMAKURTHI — 24 villages
+    [2/18] Mandal: DARSI — 38 villages
+    [3/18] Mandal: DONAKONDA — 30 villages
+    [4/18] Mandal: KONDAPI — 22 villages
+    [5/18] Mandal: KOTHAPATNAM — 7 villages
+    [6/18] Mandal: KURICHEDU — 19 villages
+    [7/18] Mandal: MADDIPADU — 24 villages
+    [8/18] Mandal: MARRIPUDI — 24 villages
+    [9/18] Mandal: MUNDLAMURU — 29 villages
+    [10/18] Mandal: NAGULUPPALAPADU — 18 villages
+    [11/18] Mandal: ONGOLE — 13 villages
+    [12/18] Mandal: ONGOLE (Rural) — 7 villages
+    [13/18] Mandal: PONNALURU — 22 villages
+    [14/18] Mandal: SANTHANUTHLAPADU — 16 villages
+    [15/18] Mandal: SINGARAYAKONDA — 8 villages
+    [16/18] Mandal: TANGUTUR — 17 villages
+    [17/18] Mandal: THALLUR — 16 villages
+    [18/18] Mandal: ZARUGUMILLI — 26 villages
+    ✓ Progress saved (9868 total records)
+    Browser closed for PRAKASAM
+
+  [20/27] District: SPSR NELLORE
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 38 mandals
+    [1/38] Mandal: ALLUR — 15 villages
+    [2/38] Mandal: ANANTHASAGARAM — 19 villages
+    [3/38] Mandal: ANUMASAMUDRAMPETA — 23 villages
+    [4/38] Mandal: ATMAKUR — 21 villages
+    [5/38] Mandal: BOGOLE — 12 villages
+    [6/38] Mandal: BUTCHIREDDIPALEM — 14 villages
+    [7/38] Mandal: CHEJERLA — 18 villages
+    [8/38] Mandal: DAGADARTHI — 18 villages
+    [9/38] Mandal: DUTTALUR — 15 villages
+    [10/38] Mandal: GUDLURU — no villages
+      ✗ Village dropdown empty, skipping
+    [11/38] Mandal: INDUKURPET — 16 villages
+    [12/38] Mandal: JALADANKI — 12 villages
+    [13/38] Mandal: KALIGIRI — 20 villages
+    [14/38] Mandal: KALUVOYA — 21 villages
+    [15/38] Mandal: KANDUKUR — no villages
+      ✗ Village dropdown empty, skipping
+    [16/38] Mandal: KAVALI — 18 villages
+    [17/38] Mandal: KODAVALUR — 16 villages
+    [18/38] Mandal: KONDAPURAM — 26 villages
+    [19/38] Mandal: KOVUR — 10 villages
+    [20/38] Mandal: LINGASAMUDRAM — no villages
+      ✗ Village dropdown empty, skipping
+    [21/38] Mandal: MANUBOLU — 18 villages
+    [22/38] Mandal: MARRIPADU — 21 villages
+    [23/38] Mandal: MUTHUKUR — 15 villages
+    [24/38] Mandal: NELLORE — 34 villages
+    [25/38] Mandal: NELLORE (Urban) — 1 villages
+    [26/38] Mandal: PODLAKUR — 36 villages
+    [27/38] Mandal: RAPUR — 38 villages
+    [28/38] Mandal: SANGAM — 17 villages
+    [29/38] Mandal: SEETHARAMAPURAM — 21 villages
+    [30/38] Mandal: SYDAPURAM — 36 villages
+    [31/38] Mandal: THOTAPALLIGUDUR — 20 villages
+    [32/38] Mandal: UDAYAGIRI — 17 villages
+    [33/38] Mandal: ULAVAPADU — no villages
+      ✗ Village dropdown empty, skipping
+    [34/38] Mandal: VARIKUNTAPADU — 28 villages
+    [35/38] Mandal: VENKATACHALAM — 20 villages
+    [36/38] Mandal: VIDAVALUR — 10 villages
+    [37/38] Mandal: VINJAMUR — 15 villages
+    [38/38] Mandal: VOLETIVARIPALEM — no villages
+      ✗ Village dropdown empty, skipping
+    ✓ Progress saved (10509 total records)
+    Browser closed for SPSR NELLORE
+
+  [21/27] District: SRI SATHYA SAI
+  ──────────────────────────────────────────────────
+    Radio click error (attempt 1): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 2): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 3): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 4): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 5): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 6): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 7): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 8): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 9): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+    Radio click error (attempt 10): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55db5d2efcca <unknown>
+#1 0x55db5ccff682 <unknown>
+#2 0x55db5cd54a06 <unknown>
+#3 0x55db5cd54c41 <unknown>
+#4 0x55db5cd9fe14 <unknown>
+#5 0x55db5cd9d04b <unknown>
+#6 0x55db5cd4688f <unknown>
+#7 0x55db5cd47651 <unknown>
+#8 0x55db5d2b4119 <unknown>
+#9 0x55db5d2b7021 <unknown>
+#10 0x55db5d2a08d9 <unknown>
+#11 0x55db5d2b7bee <unknown>
+#12 0x55db5d286c50 <unknown>
+#13 0x55db5d2dc318 <unknown>
+#14 0x55db5d2dc4e8 <unknown>
+#15 0x55db5d2ee313 <unknown>
+#16 0x7f2da7894ac3 <unknown>
+
+  Waiting for district dropdown to populate...
+    ✗ Districts didn't load, skipping SRI SATHYA SAI
+    Browser closed for SRI SATHYA SAI
+
+  [22/27] District: SRIKAKULAM
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 30 mandals
+    [1/30] Mandal: AMADALAVALASA — 52 villages
+    [2/30] Mandal: BURJA — 64 villages
+    [3/30] Mandal: ETCHERLA — 32 villages
+    [4/30] Mandal: GANGUVARI SINGADAM — 43 villages
+    [5/30] Mandal: GARA — 25 villages
+    [6/30] Mandal: HIRAMANDALAM — 38 villages
+    [7/30] Mandal: ICHCHAPURAM — 38 villages
+    [8/30] Mandal: JALUMURU — 52 villages
+    [9/30] Mandal: KANCHILI — 58 villages
+    [10/30] Mandal: KAVITI — 21 villages
+    [11/30] Mandal: KOTABOMMILI — 43 villages
+    [12/30] Mandal: KOTHURU — 36 villages
+    [13/30] Mandal: LAVERU — 42 villages
+    [14/30] Mandal: LNPETA — 49 villages
+    [15/30] Mandal: MANDASA — 84 villages
+    [16/30] Mandal: MEILAPUTTI — 72 villages
+    [17/30] Mandal: NANDIGAM — 113 villages
+    [18/30] Mandal: NARASANNAPETA — 45 villages
+    [19/30] Mandal: PALASA — 79 villages
+    [20/30] Mandal: PATHAPATNAM — 49 villages
+    [21/30] Mandal: POLAKI — 42 villages
+    [22/30] Mandal: PONDURU — 38 villages
+    [23/30] Mandal: RANASTALAM — 55 villages
+    [24/30] Mandal: SANTHABOMMALI — 39 villages
+    [25/30] Mandal: SARAVAKOTA — 42 villages
+    [26/30] Mandal: SARUBUJJILI — 48 villages
+    [27/30] Mandal: SOMPETA — 38 villages
+    [28/30] Mandal: SRIKAKULAM — 31 villages
+    [29/30] Mandal: TEKKALI — 56 villages
+    [30/30] Mandal: VAJRAPUKOTHURU — 59 villages
+    ✓ Progress saved (11992 total records)
+    Browser closed for SRIKAKULAM
+
+  [23/27] District: TIRUPATI
+  ──────────────────────────────────────────────────
+    Rural not confirmed yet (attempt 1), retrying...
+    ✓ Rural confirmed (attempt 2)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 34 mandals
+    [1/34] Mandal: BALAYAPALLE — 51 villages
+    [2/34] Mandal: BUCHINAIDU KHANDRIGA — 25 villages
+    [3/34] Mandal: CHANDRAGIRI — 23 villages
+    [4/34] Mandal: CHILLAKUR — no villages
+ — 51 villages
+    [5/34] Mandal: CHINNAGOTTIGALLU — 10 villages
+    [6/34] Mandal: CHITTAMUR — 41 villages
+    [7/34] Mandal: DAKKILI — 50 villages
+    [8/34] Mandal: DORAVARISATRAM — 45 villages
+    [9/34] Mandal: GUDUR — 1 villages
+    [10/34] Mandal: K V P PURAM — 39 villages
+    [11/34] Mandal: KOTA — no villages
+      ✗ Village dropdown empty, skipping
+    [12/34] Mandal: NAGALAPURAM — 12 villages
+    [13/34] Mandal: NAIDUPETA — 33 villages
+    [14/34] Mandal: NARAYANAVANAM — 16 villages
+    [15/34] Mandal: OJILI — 47 villages
+    [16/34] Mandal: PAKALA — 15 villages
+    [17/34] Mandal: PELLAKUR — 28 villages
+    [18/34] Mandal: PICHATUR — 17 villages
+    [19/34] Mandal: PUTTUR — 21 villages
+    [20/34] Mandal: RAMACHANDRAPURAM — 17 villages
+    [21/34] Mandal: RENIGUNTA — 33 villages
+    [22/34] Mandal: SATYAVEDU — 31 villages
+    [23/34] Mandal: SRIKALAHASTI — 67 villages
+    [24/34] Mandal: SULLURPETA — 42 villages
+    [25/34] Mandal: TADA — 25 villages
+    [26/34] Mandal: THOTTAMBEDU — 41 villages
+    [27/34] Mandal: TIRUPATI RURAL — 29 villages
+    [28/34] Mandal: Tirupati Urban — 7 villages
+    [29/34] Mandal: VADAMALAPETA — 22 villages
+    [30/34] Mandal: VAKADU — 40 villages
+    [31/34] Mandal: VARADAIAHPALEM — 30 villages
+    [32/34] Mandal: VENKATAGIRI — 78 villages
+    [33/34] Mandal: YERPEDU — 35 villages
+    [34/34] Mandal: YERRAVARIPALEM — 10 villages
+    ✓ Progress saved (13024 total records)
+    Browser closed for TIRUPATI
+
+  [24/27] District: VISAKHAPATNAM
+  ──────────────────────────────────────────────────
+    Radio click error (attempt 1): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 2): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 3): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 4): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 5): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 6): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 7): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 8): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 9): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+    Radio click error (attempt 10): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="agri"]"}
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x59dabd84dcca <unknown>
+#1 0x59dabd25d682 <unknown>
+#2 0x59dabd2b2a06 <unknown>
+#3 0x59dabd2b2c41 <unknown>
+#4 0x59dabd2fde14 <unknown>
+#5 0x59dabd2fb04b <unknown>
+#6 0x59dabd2a488f <unknown>
+#7 0x59dabd2a5651 <unknown>
+#8 0x59dabd812119 <unknown>
+#9 0x59dabd815021 <unknown>
+#10 0x59dabd7fe8d9 <unknown>
+#11 0x59dabd815bee <unknown>
+#12 0x59dabd7e4c50 <unknown>
+#13 0x59dabd83a318 <unknown>
+#14 0x59dabd83a4e8 <unknown>
+#15 0x59dabd84c313 <unknown>
+#16 0x7b3102894ac3 <unknown>
+
+  Waiting for district dropdown to populate...
+    ✗ Districts didn't load, skipping VISAKHAPATNAM
+    Browser closed for VISAKHAPATNAM
+
+  [25/27] District: VIZIANAGARAM
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 27 mandals
+    [1/27] Mandal: BADANGI — 31 villages
+    [2/27] Mandal: BHOGHAPURAM — 22 villages
+    [3/27] Mandal: BOBBILI — 45 villages
+    [4/27] Mandal: BONDAPALLE — 33 villages
+    [5/27] Mandal: CHEEPURUPALLE — 32 villages
+    [6/27] Mandal: DATTIRAJERU — 46 villages
+    [7/27] Mandal: DENKADA — 46 villages
+    [8/27] Mandal: GAJAPATHINAGARAM — 31 villages
+    [9/27] Mandal: GANTYADA — 39 villages
+    [10/27] Mandal: GARIVIDI — 38 villages
+    [11/27] Mandal: GURLA — 39 villages
+    [12/27] Mandal: JAMI — 29 villages
+    [13/27] Mandal: KOTHAVALASA — 29 villages
+    [14/27] Mandal: LAKKAVARAPUKOTA — 33 villages
+    [15/27] Mandal: MENTADA — 37 villages
+    [16/27] Mandal: MERAKAMUDIDAM — 41 villages
+    [17/27] Mandal: NELLIMARLA — 33 villages
+    [18/27] Mandal: PUSAPATIREGA — 37 villages
+    [19/27] Mandal: RAJAM — 31 villages
+    [20/27] Mandal: RAMABHADRAPURAM — 32 villages
+    [21/27] Mandal: REGIDIAMADALAVALASA — 51 villages
+    [22/27] Mandal: SANTHAKAVITI — 52 villages
+    [23/27] Mandal: SRUNGAVARAPUKOTA — 40 villages
+    [24/27] Mandal: THERLAM — 51 villages
+    [25/27] Mandal: VANGARA — 37 villages
+    [26/27] Mandal: VEPADA — 39 villages
+    [27/27] Mandal: VIZIANAGARAM — 25 villages
+    ✓ Progress saved (14023 total records)
+    Browser closed for VIZIANAGARAM
+
+  [26/27] District: WEST GODAVARI
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 20 mandals
+    [1/20] Mandal: ACHANTA — 10 villages
+    [2/20] Mandal: AKIVEEDU — 15 villages
+    [3/20] Mandal: ATTILI — 17 villages
+    [4/20] Mandal: BHEEMAVARAM — 16 villages
+    [5/20] Mandal: GANAPAVARAM — 26 villages
+    [6/20] Mandal: IRAGAVARAM — 22 villages
+    [7/20] Mandal: KALLA — 14 villages
+    [8/20] Mandal: MOGALTHUR — 14 villages
+    [9/20] Mandal: NARASAPURAM    Error reading 'Village': Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5e5da40d6cca <unknown>
+#1 0x5e5da3ae6682 <unknown>
+#2 0x5e5da3aed79b <unknown>
+#3 0x5e5da3af0039 <unknown>
+#4 0x5e5da3af00e3 <unknown>
+#5 0x5e5da3b35e60 <unknown>
+#6 0x5e5da3b2f2a7 <unknown>
+#7 0x5e5da3b8404b <unknown>
+#8 0x5e5da3b2d88f <unknown>
+#9 0x5e5da3b2e651 <unknown>
+#10 0x5e5da409b119 <unknown>
+#11 0x5e5da409e021 <unknown>
+#12 0x5e5da40878d9 <unknown>
+#13 0x5e5da409ebee <unknown>
+#14 0x5e5da406dc50 <unknown>
+#15 0x5e5da40c3318 <unknown>
+#16 0x5e5da40c34e8 <unknown>
+#17 0x5e5da40d5313 <unknown>
+#18 0x760566694ac3 <unknown>
+
+ — 0 villages
+    [10/20] Mandal: PALACOLE — 21 villages
+    [11/20] Mandal: PALAKODERU — 14 villages
+    [12/20] Mandal: PENTAPADU — 23 villages
+    [13/20] Mandal: PENUGONDA — 14 villages
+    [14/20] Mandal: PENUMANTRA — 19 villages
+    [15/20] Mandal: PODURU — 17 villages
+    [16/20] Mandal: TADEPALLIGUDEM — 22 villages
+    [17/20] Mandal: TANUKU — 13 villages
+    [18/20] Mandal: UNDI — 20 villages
+    [19/20] Mandal: VEERAVASARAM — 14 villages
+    [20/20] Mandal: YELAMANCHILI — 15 villages
+    ✓ Progress saved (14349 total records)
+    Browser closed for WEST GODAVARI
+
+  [27/27] District: YSR KADAPA
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 36 mandals
+    [1/36] Mandal: ATLUR — 16 villages
+    [2/36] Mandal: B KODUR — 19 villages
+    [3/36] Mandal: BADVEL — 24 villages
+    [4/36] Mandal: BRAHMAMGARIMATTAM — 20 villages
+    [5/36] Mandal: CHAKRAYAPET — 17 villages
+    [6/36] Mandal: CHAPAD — 19 villages
+    [7/36] Mandal: CHENNUR — 16 villages
+    [8/36] Mandal: CHINTHA KOMMADINNE — 16 villages
+    [9/36] Mandal: CUDDAPAH — 11 villages
+    [10/36] Mandal: DUVVUR — 20 villages
+    [11/36] Mandal: GOPAVARAM — 8 villages
+    [12/36] Mandal: JAMMALAMADUGU — 22 villages
+    [13/36] Mandal: KALASAPADU — 24 villages
+    [14/36] Mandal: KAMALAPURAM — 24 villages
+    [15/36] Mandal: KHAJIPET — 17 villages
+    [16/36] Mandal: KONDAPURAM — 38 villages
+    [17/36] Mandal: LINGALA — 18 villages
+    [18/36] Mandal: MUDDANUR — 23 villages
+    [19/36] Mandal: MYLAVARAM — 28 villages
+    [20/36] Mandal: PEDDAMUDIUM — 28 villages
+    [21/36] Mandal: PENDLIMARRI — 26 villages
+    [22/36] Mandal: PORUMAMILLA — 31 villages
+    [23/36] Mandal: PRODDUTUR — 18 villages
+    [24/36] Mandal: PULIVENDLA — 20 villages
+    [25/36] Mandal: RAJU PALEM — 17 villages
+    [26/36] Mandal: S MYDUKUR — 16 villages
+    [27/36] Mandal: SIDHOUT — 18 villages
+    [28/36] Mandal: SIMHADRIPURAM — 20 villages
+    [29/36] Mandal: Sri Avadhutha Kasinayana — 21 villages
+    [30/36] Mandal: THANDUR — 17 villages
+    [31/36] Mandal: VALLUR — 20 villages
+    [32/36] Mandal: VEERAPUNAYUNIPALLE — 19 villages
+    [33/36] Mandal: VEMPALLE — 11 villages
+    [34/36] Mandal: VEMULA — 12 villages
+    [35/36] Mandal: VONTIMITTA — 13 villages
+    [36/36] Mandal: YERRAGUNTLA — 16 villages
+    ✓ Progress saved (15052 total records)
+    Browser closed for YSR KADAPA
+
+  ✓ CSV saved: ./data/master_list_rural_20260221_015803.csv
+  ✓ Excel saved: ./data/master_list_rural_20260221_015803.xlsx
+
+============================================================
+  SUMMARY
+============================================================
+  Total Districts: 25
+  Total Mandals:   599
+  Total Villages:  15052
+============================================================
+    ALLURI SITHARAMA RAJU: 11 mandals, 2102 villages
+    ANAKAPALLI: 24 mandals, 738 villages
+    ANANTAPUR: 32 mandals, 504 villages
+    ANNAMAYYA: 22 mandals, 301 villages
+    BAPATLA: 22 mandals, 230 villages
+    CHITTOOR: 30 mandals, 775 villages
+    EAST GODAVARI: 19 mandals, 279 villages
+    ELURU: 27 mandals, 616 villages
+    GUNTUR: 18 mandals, 229 villages
+    KAKINADA: 21 mandals, 412 villages
+    KONASEEMA: 21 mandals, 278 villages
+    KRISHNA: 26 mandals, 517 villages
+    KURNOOL: 26 mandals, 450 villages
+    MARKAPURAM: 12 mandals, 305 villages
+    NANDYAL: 29 mandals, 441 villages
+    NTR: 20 mandals, 313 villages
+    PALNADU: 28 mandals, 364 villages
+    PARVATIPURAM MANYAM: 15 mandals, 654 villages
+    PRAKASAM: 18 mandals, 360 villages
+    SPSR NELLORE: 33 mandals, 641 villages
+    SRIKAKULAM: 30 mandals, 1483 villages
+    TIRUPATI: 33 mandals, 1032 villages
+    VIZIANAGARAM: 27 mandals, 999 villages
+    WEST GODAVARI: 19 mandals, 326 villages
+    YSR KADAPA: 36 mandals, 703 villages
+
+  Done!
+  Resuming: 25 districts done, 15052 records
+  Headless: False
+============================================================
+
+  Getting district list...
+  ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+  Found 27 total districts
+
+  [1/27] ALLURI SITHARAMA RAJU — already done, skipping
+
+  [2/27] ANAKAPALLI — already done, skipping
+
+  [3/27] ANANTAPUR — already done, skipping
+
+  [4/27] ANNAMAYYA — already done, skipping
+
+  [5/27] BAPATLA — already done, skipping
+
+  [6/27] CHITTOOR — already done, skipping
+
+  [7/27] EAST GODAVARI — already done, skipping
+
+  [8/27] ELURU — already done, skipping
+
+  [9/27] GUNTUR — already done, skipping
+
+  [10/27] KAKINADA — already done, skipping
+
+  [11/27] KONASEEMA — already done, skipping
+
+  [12/27] KRISHNA — already done, skipping
+
+  [13/27] KURNOOL — already done, skipping
+
+  [14/27] MARKAPURAM — already done, skipping
+
+  [15/27] NANDYAL — already done, skipping
+
+  [16/27] NTR — already done, skipping
+
+  [17/27] PALNADU — already done, skipping
+
+  [18/27] PARVATIPURAM MANYAM — already done, skipping
+
+  [19/27] PRAKASAM — already done, skipping
+
+  [20/27] SPSR NELLORE — already done, skipping
+
+  [21/27] District: SRI SATHYA SAI
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 32 mandals
+    [1/32] Mandal: AGALI — 9 villages
+    [2/32] Mandal: AMADAGUR — 14 villages
+    [3/32] Mandal: AMARAPURAM — 9 villages
+    [4/32] Mandal: BATHALAPALLE — 11 villages
+    [5/32] Mandal: BUKKAPATNAM — 8 villages
+    [6/32] Mandal: CHENNE KOTHAPALLE — 11 villages
+    [7/32] Mandal: CHILAMATHUR — 21 villages
+    [8/32] Mandal: DHARMAVARAM — 21 villages
+    [9/32] Mandal: GANDLAPENTA    Error reading 'Village': Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5f0fccd59cca <unknown>
+#1 0x5f0fcc769682 <unknown>
+#2 0x5f0fcc77079b <unknown>
+#3 0x5f0fcc773039 <unknown>
+#4 0x5f0fcc7730e3 <unknown>
+#5 0x5f0fcc7b8e60 <unknown>
+#6 0x5f0fcc7b22a7 <unknown>
+#7 0x5f0fcc80704b <unknown>
+#8 0x5f0fcc7b088f <unknown>
+#9 0x5f0fcc7b1651 <unknown>
+#10 0x5f0fccd1e119 <unknown>
+#11 0x5f0fccd21021 <unknown>
+#12 0x5f0fccd0a8d9 <unknown>
+#13 0x5f0fccd21bee <unknown>
+#14 0x5f0fcccf0c50 <unknown>
+#15 0x5f0fccd46318 <unknown>
+#16 0x5f0fccd464e8 <unknown>
+#17 0x5f0fccd58313 <unknown>
+#18 0x731474e94ac3 <unknown>
+
+ — 0 villages
+    [10/32] Mandal: GORANTLA — 21 villages
+    [11/32] Mandal: GUDIBANDA — 13 villages
+    [12/32] Mandal: HINDUPUR — 23 villages
+    [13/32] Mandal: KADIRI — 18 villages
+    [14/32] Mandal: KANAGANAPALLE — 10 villages
+    [15/32] Mandal: KOTHACHERUVU — 23 villages
+    [16/32] Mandal: LEPAKSHI — 10 villages
+    [17/32] Mandal: MADAKASIRA — 20 villages
+    [18/32] Mandal: MUDIGUBBA — 27 villages
+    [19/32] Mandal: NALLACHERUVU — 11 villages
+    [20/32] Mandal: NALLAMADA — 10 villages
+    [21/32] Mandal: NAMBULIPULIKUNTA — 12 villages
+    [22/32] Mandal: OBULADEVARACHERUVU — 14 villages
+    [23/32] Mandal: PARIGI — 16 villages
+    [24/32] Mandal: PENUKONDA — 17 villages
+    [25/32] Mandal: PUTTAPARTHI — 13 villages
+    [26/32] Mandal: RAMAGIRI — 10 villages
+    [27/32] Mandal: RODDAM — 21 villages
+    [28/32] Mandal: ROLLA — 7 villages
+    [29/32] Mandal: SOMANDEPALLE — 20 villages
+    [30/32] Mandal: TADIMARRI — 11 villages
+    [31/32] Mandal: TALUPULA — 11 villages
+    [32/32] Mandal: TANAKAL — 20 villages
+    ✓ Progress saved (15514 total records)
+    Browser closed for SRI SATHYA SAI
+
+  [22/27] SRIKAKULAM — already done, skipping
+
+  [23/27] TIRUPATI — already done, skipping
+
+  [24/27] District: VISAKHAPATNAM
+  ──────────────────────────────────────────────────
+    ✓ Rural confirmed (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 11 mandals
+    [1/11] Mandal: ANANDAPURAM — 33 villages
+    [2/11] Mandal: BHEEMUNIPATNAM — 26 villages
+    [3/11] Mandal: GAJUWAKA — 16 villages
+    [4/11] Mandal: Gopalapatnam — 8 villages
+    [5/11] Mandal: Maharanipeta — 2 villages
+    [6/11] Mandal: Mulagada — 3 villages
+    [7/11] Mandal: PADMANABHAM — 25 villages
+    [8/11] Mandal: PEDAGANTYADA — 25 villages
+    [9/11] Mandal: PENDURTHI — 25 villages
+    [10/11] Mandal: Seethammadhara — 25 villages
+    [11/11] Mandal: VISAKHAPATNAM — 25 villages
+    ✓ Progress saved (15727 total records)
+    Browser closed for VISAKHAPATNAM
+
+  [25/27] VIZIANAGARAM — already done, skipping
+
+  [26/27] WEST GODAVARI — already done, skipping
+
+  [27/27] YSR KADAPA — already done, skipping
+
+  ✓ CSV saved: ./data/master_list_rural_20260221_101737.csv
+  ✓ Excel saved: ./data/master_list_rural_20260221_101737.xlsx
+
+============================================================
+  SUMMARY
+============================================================
+  Total Districts: 27
+  Total Mandals:   641
+  Total Villages:  15727
+============================================================
+    ALLURI SITHARAMA RAJU: 11 mandals, 2102 villages
+    ANAKAPALLI: 24 mandals, 738 villages
+    ANANTAPUR: 32 mandals, 504 villages
+    ANNAMAYYA: 22 mandals, 301 villages
+    BAPATLA: 22 mandals, 230 villages
+    CHITTOOR: 30 mandals, 775 villages
+    EAST GODAVARI: 19 mandals, 279 villages
+    ELURU: 27 mandals, 616 villages
+    GUNTUR: 18 mandals, 229 villages
+    KAKINADA: 21 mandals, 412 villages
+    KONASEEMA: 21 mandals, 278 villages
+    KRISHNA: 26 mandals, 517 villages
+    KURNOOL: 26 mandals, 450 villages
+    MARKAPURAM: 12 mandals, 305 villages
+    NANDYAL: 29 mandals, 441 villages
+    NTR: 20 mandals, 313 villages
+    PALNADU: 28 mandals, 364 villages
+    PARVATIPURAM MANYAM: 15 mandals, 654 villages
+    PRAKASAM: 18 mandals, 360 villages
+    SPSR NELLORE: 33 mandals, 641 villages
+    SRI SATHYA SAI: 31 mandals, 462 villages
+    SRIKAKULAM: 30 mandals, 1483 villages
+    TIRUPATI: 33 mandals, 1032 villages
+    VISAKHAPATNAM: 11 mandals, 213 villages
+    VIZIANAGARAM: 27 mandals, 999 villages
+    WEST GODAVARI: 19 mandals, 326 villages
+    YSR KADAPA: 36 mandals, 703 villages
+
+  Done!

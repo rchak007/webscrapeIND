@@ -1,0 +1,371 @@
+============================================================
+Building Master List of All Locations
+============================================================
+  Property Type: rural
+  Headless:      False
+  Output Dir:    ./data
+============================================================
+
+  Resuming: 16 districts already done, 8490 records so far
+
+  Loading page...
+  ✓ Page loaded
+  ✓ Selected rural properties
+
+  Found 0 districts
+  Districts: []
+
+
+  ✓ CSV saved:   ./data/master_list_rural_20260220_234354.csv
+  ✓ Excel saved: ./data/master_list_rural_20260220_234354.xlsx
+
+============================================================
+  SUMMARY
+============================================================
+  Total Districts: 16
+  Total Mandals:   360
+  Total Villages:  8490
+============================================================
+
+  Per-District Breakdown:
+    ALLURI SITHARAMA RAJU: 11 mandals, 2102 villages
+    ANAKAPALLI: 24 mandals, 738 villages
+    ANANTAPUR: 32 mandals, 504 villages
+    ANNAMAYYA: 22 mandals, 301 villages
+    BAPATLA: 22 mandals, 230 villages
+    CHITTOOR: 30 mandals, 775 villages
+    EAST GODAVARI: 19 mandals, 279 villages
+    ELURU: 27 mandals, 616 villages
+    GUNTUR: 18 mandals, 229 villages
+    KAKINADA: 21 mandals, 412 villages
+    KONASEEMA: 21 mandals, 278 villages
+    KRISHNA: 26 mandals, 517 villages
+    KURNOOL: 26 mandals, 450 villages
+    MARKAPURAM: 12 mandals, 305 villages
+    NANDYAL: 29 mandals, 441 villages
+    NTR: 20 mandals, 313 villages
+
+  Progress file cleaned up.
+
+  Browser closed.
+  Resuming: 16 districts done, 8490 records
+  Headless: False
+============================================================
+
+  Getting district list...
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 30s
+  Found 27 total districts
+
+  [1/27] ALLURI SITHARAMA RAJU — already done, skipping
+
+  [2/27] ANAKAPALLI — already done, skipping
+
+  [3/27] ANANTAPUR — already done, skipping
+
+  [4/27] ANNAMAYYA — already done, skipping
+
+  [5/27] BAPATLA — already done, skipping
+
+  [6/27] CHITTOOR — already done, skipping
+
+  [7/27] EAST GODAVARI — already done, skipping
+
+  [8/27] ELURU — already done, skipping
+
+  [9/27] GUNTUR — already done, skipping
+
+  [10/27] KAKINADA — already done, skipping
+
+  [11/27] KONASEEMA — already done, skipping
+
+  [12/27] KRISHNA — already done, skipping
+
+  [13/27] KURNOOL — already done, skipping
+
+  [14/27] MARKAPURAM — already done, skipping
+
+  [15/27] NANDYAL — already done, skipping
+
+  [16/27] NTR — already done, skipping
+
+  [17/27] District: PALNADU
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 4s
+    Found 28 mandals
+    [1/28] Mandal: ACHAMPETA — 18 villages
+    [2/28] Mandal: AMARAVATHI — 17 villages
+    [3/28] Mandal: BELLAMKONDA — 13 villages
+    [4/28] Mandal: BOLLAPALLE — 14 villages
+    [5/28] Mandal: CHILAKALURIPET — 17 villages
+    [6/28] Mandal: DACHEPALLE — 17 villages
+    [7/28] Mandal: DURGI    Error reading 'Village': Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5b8c6e17ecca <unknown>
+#1 0x5b8c6db8e682 <unknown>
+#2 0x5b8c6db9579b <unknown>
+#3 0x5b8c6db98039 <unknown>
+#4 0x5b8c6db980e3 <unknown>
+#5 0x5b8c6dbdde60 <unknown>
+#6 0x5b8c6dbd72a7 <unknown>
+#7 0x5b8c6dc2c04b <unknown>
+#8 0x5b8c6dbd588f <unknown>
+#9 0x5b8c6dbd6651 <unknown>
+#10 0x5b8c6e143119 <unknown>
+#11 0x5b8c6e146021 <unknown>
+#12 0x5b8c6e12f8d9 <unknown>
+#13 0x5b8c6e146bee <unknown>
+#14 0x5b8c6e115c50 <unknown>
+#15 0x5b8c6e16b318 <unknown>
+#16 0x5b8c6e16b4e8 <unknown>
+#17 0x5b8c6e17d313 <unknown>
+#18 0x72be47e94ac3 <unknown>
+
+ — 0 villages
+    [8/28] Mandal: EDLAPADU — 13 villages
+    [9/28] Mandal: GURAZALA — 10 villages
+    [10/28] Mandal: IPURU — 13 villages
+    [11/28] Mandal: KAREMPUDI — 11 villages
+    [12/28] Mandal: KROSURU — 15 villages
+    [13/28] Mandal: MACHAVARAM  Resuming: 16 districts done, 8490 records
+  Headless: False
+============================================================
+
+  Getting district list...
+  ✓ Rural selected (attempt 1)
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+  Found 27 total districts
+
+  [1/27] ALLURI SITHARAMA RAJU — already done, skipping
+
+  [2/27] ANAKAPALLI — already done, skipping
+
+  [3/27] ANANTAPUR — already done, skipping
+
+  [4/27] ANNAMAYYA — already done, skipping
+
+  [5/27] BAPATLA — already done, skipping
+
+  [6/27] CHITTOOR — already done, skipping
+
+  [7/27] EAST GODAVARI — already done, skipping
+
+  [8/27] ELURU — already done, skipping
+
+  [9/27] GUNTUR — already done, skipping
+
+  [10/27] KAKINADA — already done, skipping
+
+  [11/27] KONASEEMA — already done, skipping
+
+  [12/27] KRISHNA — already done, skipping
+
+  [13/27] KURNOOL — already done, skipping
+
+  [14/27] MARKAPURAM — already done, skipping
+
+  [15/27] NANDYAL — already done, skipping
+
+  [16/27] NTR — already done, skipping
+
+  [17/27] District: PALNADU
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 28 mandals
+    [1/28] Mandal: ACHAMPETA — 18 villages
+    [2/28] Mandal: AMARAVATHI — 17 villages
+    [3/28] Mandal: BELLAMKONDA — 13 villages
+    [4/28] Mandal: BOLLAPALLE — 14 villages
+    [5/28] Mandal: CHILAKALURIPET — 17 villages
+    [6/28] Mandal: DACHEPALLE — 12 villages
+    [7/28] Mandal: DURGI — 10 villages
+    [8/28] Mandal: EDLAPADU — 10 villages
+    [9/28] Mandal: GURAZALA — 10 villages
+    [10/28] Mandal: IPURU — 10 villages
+    [11/28] Mandal: KAREMPUDI — 10 villages
+    [12/28] Mandal: KROSURU — 10 villages
+    [13/28] Mandal: MACHAVARAM — 10 villages
+    [14/28] Mandal: MACHERLA — 18 villages
+    [15/28] Mandal: MUPPALLA — 10 villages
+    [16/28] Mandal: NADENDLA — 11 villages
+    [17/28] Mandal: NAKARIKALLU — 10 villages
+    [18/28] Mandal: NARASARAOPETA — 18 villages
+    [19/28] Mandal: NUZENDLA — 21 villages
+    [20/28] Mandal: PEDAKURAPADU — 14 villages
+    [21/28] Mandal: PIDUGURALLA — 10 villages
+    [22/28] Mandal: RAJUPALEM — 8 villages
+    [23/28] Mandal: RENTACHINTALA — 10 villages
+    [24/28] Mandal: ROMPICHERLA — 14 villages
+    [25/28] Mandal: SATTENAPALLE — 19 villages
+    [26/28] Mandal: SAVALYAPURAM — 7 villages
+    [27/28] Mandal: VELDURTHI — 9 villages
+    [28/28] Mandal: VINUKONDA — 24 villages
+    ✓ Progress saved (8854 total records)
+    Browser closed for PALNADU
+
+  [18/27] District: PARVATIPURAM MANYAM
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 15 mandals
+    [1/15] Mandal: BALAJIPETA — 34 villages
+    [2/15] Mandal: BHAMINI — 22 villages
+    [3/15] Mandal: GARUGUBILLI — 34 villages
+    [4/15] Mandal: GUMMALAKSHMIPURAM — 5 villages
+    [5/15] Mandal: JIYYAMMA VALASA — 51 villages
+    [6/15] Mandal: KOMARADA — 67 villages
+    [7/15] Mandal: KURUPAM — 67 villages
+    [8/15] Mandal: MAKKUVA — 34 villages
+    [9/15] Mandal: PACHIPENTA — 54 villages
+    [10/15] Mandal: PALAKONDA — 46 villages
+    [11/15] Mandal: PARVATHIPURAM — 55 villages
+    [12/15] Mandal: SALUR — 90 villages
+    [13/15] Mandal: SEETHAMPETA — 10 villages
+    [14/15] Mandal: SEETHANAGARAM — 44 villages
+    [15/15] Mandal: VEERAGHATTAM — 41 villages
+    ✓ Progress saved (9508 total records)
+    Browser closed for PARVATIPURAM MANYAM
+
+  [19/27] District: PRAKASAM
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 0s
+    Found 18 mandals
+    [1/18] Mandal: CHIMAKURTHI — 24 villages
+    [2/18] Mandal: DARSI — 38 villages
+    [3/18] Mandal: DONAKONDA — 30 villages
+    [4/18] Mandal: KONDAPI — 22 villages
+    [5/18] Mandal: KOTHAPATNAM — 7 villages
+    [6/18] Mandal: KURICHEDU — 19 villages
+    [7/18] Mandal: MADDIPADU — 21 villages
+    [8/18] Mandal: MARRIPUDI — 21 villages
+    [9/18] Mandal: MUNDLAMURU — 21 villages
+    [10/18] Mandal: NAGULUPPALAPADU — 18 villages
+    [11/18] Mandal: ONGOLE — 13 villages
+    [12/18] Mandal: ONGOLE (Rural) — 7 villages
+    [13/18] Mandal: PONNALURU — 22 villages
+    [14/18] Mandal: SANTHANUTHLAPADU — 16 villages
+    [15/18] Mandal: SINGARAYAKONDA — 8 villages
+    [16/18] Mandal: TANGUTUR — 17 villages
+    [17/18] Mandal: THALLUR — 16 villages
+    [18/18] Mandal: ZARUGUMILLI — 26 villages
+    ✓ Progress saved (9854 total records)
+    Browser closed for PRAKASAM
+
+  [20/27] District: SPSR NELLORE
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 1s
+    Found 38 mandals
+    [1/38] Mandal: ALLUR — 15 villages
+    [2/38] Mandal: ANANTHASAGARAM — 19 villages
+    [3/38] Mandal: ANUMASAMUDRAMPETA — 23 villages
+    [4/38] Mandal: ATMAKUR — 21 villages
+    [5/38] Mandal: BOGOLE — 12 villages
+    [6/38] Mandal: BUTCHIREDDIPALEM — 12 villages
+    [7/38] Mandal: CHEJERLA — 12 villages
+    [8/38] Mandal: DAGADARTHI — 12 villages
+    [9/38] Mandal: DUTTALUR — 12 villages
+    [10/38] Mandal: GUDLURU — 12 villages
+    [11/38] Mandal: INDUKURPET — 16 villages
+    [12/38] Mandal: JALADANKI — 12 villages
+    [13/38] Mandal: KALIGIRI — 20 villages
+    [14/38] Mandal: KALUVOYA — 21 villages
+    [15/38] Mandal: KANDUKUR — no villages
+      ✗ Village dropdown empty, skipping
+    [16/38] Mandal: KAVALI — 18 villages
+    [17/38] Mandal: KODAVALUR — 16 villages
+    [18/38] Mandal: KONDAPURAM — 26 villages
+    [19/38] Mandal: KOVUR — 10 villages
+    [20/38] Mandal: LINGASAMUDRAM — no villages
+      ✗ Village dropdown empty, skipping
+    [21/38] Mandal: MANUBOLU — 18 villages
+    [22/38] Mandal: MARRIPADU — 21 villages
+    [23/38] Mandal: MUTHUKUR — 15 villages
+    [24/38] Mandal: NELLORE — 34 villages
+    [25/38] Mandal: NELLORE (Urban) — 1 villages
+    [26/38] Mandal: PODLAKUR — 36 villages
+    [27/38] Mandal: RAPUR — 38 villages
+    [28/38] Mandal: SANGAM — 17 villages
+    [29/38] Mandal: SEETHARAMAPURAM — 21 villages
+    [30/38] Mandal: SYDAPURAM — 36 villages
+    [31/38] Mandal: THOTAPALLIGUDUR — 20 villages
+    [32/38] Mandal: UDAYAGIRI — 17 villages
+    [33/38] Mandal: ULAVAPADU — no villages
+      ✗ Village dropdown empty, skipping
+    [34/38] Mandal: VARIKUNTAPADU — 28 villages
+    [35/38] Mandal: VENKATACHALAM — 20 villages
+    [36/38] Mandal: VIDAVALUR — 10 villages
+    [37/38] Mandal: VINJAMUR — 15 villages
+    [38/38] Mandal: VOLETIVARIPALEM — no villages
+      ✗ Village dropdown empty, skipping
+    ✓ Progress saved (10490 total records)
+    Browser closed for SPSR NELLORE
+
+  [21/27] District: SRI SATHYA SAI
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 1s
+    Found 32 mandals
+    [1/32] Mandal: AGALI — 9 villages
+    [2/32] Mandal: AMADAGUR — 14 villages
+    [3/32] Mandal: AMARAPURAM — 9 villages
+    [4/32] Mandal: BATHALAPALLE — 11 villages
+    [5/32] Mandal: BUKKAPATNAM — 8 villages
+    [6/32] Mandal: CHENNE KOTHAPALLE — 11 villages
+    [7/32] Mandal: CHILAMATHUR — 21 villages
+    [8/32] Mandal: DHARMAVARAM — 14 villages
+    [9/32] Mandal: GANDLAPENTA — 13 villages
+    [10/32] Mandal: GORANTLA — 21 villages
+    [11/32] Mandal: GUDIBANDA — 13 villages
+    [12/32] Mandal: HINDUPUR — 23 villages
+    [13/32] Mandal: KADIRI — 18 villages
+    [14/32] Mandal: KANAGANAPALLE — 10 villages
+    [15/32] Mandal: KOTHACHERUVU — 23 villages
+    [16/32] Mandal: LEPAKSHI — 10 villages
+    [17/32] Mandal: MADAKASIRA — 20 villages
+    [18/32] Mandal: MUDIGUBBA — 27 villages
+    [19/32] Mandal: NALLACHERUVU — 11 villages
+    [20/32] Mandal: NALLAMADA — 10 villages
+    [21/32] Mandal: NAMBULIPULIKUNTA — 12 villages
+    [22/32] Mandal: OBULADEVARACHERUVU — 14 villages
+    [23/32] Mandal: PARIGI — 16 villages
+    [24/32] Mandal: PENUKONDA — 17 villages
+    [25/32] Mandal: PUTTAPARTHI — 13 villages
+    [26/32] Mandal: RAMAGIRI — 10 villages
+    [27/32] Mandal: RODDAM — 21 villages
+    [28/32] Mandal: ROLLA — 7 villages
+    [29/32] Mandal: SOMANDEPALLE — 20 villages
+    [30/32] Mandal: TADIMARRI — 11 villages
+    [31/32] Mandal: TALUPULA — 11 villages
+    [32/32] Mandal: TANAKAL — 20 villages
+    ✓ Progress saved (10958 total records)
+    Browser closed for SRI SATHYA SAI
+
+  [22/27] District: SRIKAKULAM
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+    ✗ Districts didn't load, skipping SRIKAKULAM
+    Browser closed for SRIKAKULAM
+
+  [23/27] District: TIRUPATI
+  ──────────────────────────────────────────────────
+  Waiting for district dropdown to populate...
+  ✓ District dropdown ready (27 districts) after 5s
+    Found 34 mandals
+    [1/34] Mandal: BALAYAPALLE — 51 villages
+    [2/34] Mandal: BUCHINAIDU KHANDRIGA — 25 villages
+    [3/34] Mandal: CHANDRAGIRI — 23 villages
+    [4/34] Mandal: CHILLAKUR — no villages
+ — 51 villages
+    [5/34] Mandal: CHINNAGOTTIGALLU — 10 villages
+    [6/34] Mandal: CHITTAMUR — 41 villages
+    [7/34] Mandal: DAKKILI — 50 villages
+    [8/34] Mandal: DORAVARISATRAM — 45 villages
+    [9/34] Mandal: GUDUR — 1 villages
+    [10/34] Mandal: K V P PURAM — 39 villages
+    [11/34] Mandal: KOTA
