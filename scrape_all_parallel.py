@@ -203,13 +203,16 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
     """Scrape one location. Returns (data_list, success_bool, error_message)."""
     tag = f"[W{worker_id}]"
     try:
+        print(f"{tag}   [1] Loading page...", flush=True)
         driver.get(BASE_URL)
         if not wait_for_form(driver):
             return [], False, "Page failed to load"
+        print(f"{tag}   [1] ✓ Page loaded", flush=True)
 
         # Select Rural — JavaScript click + verify
         radio_id = "agri" if property_type == "rural" else "nonAgri"
         verify_text = "Survey No" if property_type == "rural" else "Door No"
+        rural_confirmed = False
         for attempt in range(10):
             try:
                 radio = driver.find_element(By.ID, radio_id)
@@ -226,12 +229,21 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
                 time.sleep(2)
                 page_text = driver.find_element(By.TAG_NAME, "body").text
                 if verify_text in page_text:
+                    rural_confirmed = True
                     break
+                if attempt >= 3:
+                    print(f"{tag}   [2] {property_type} not confirmed (attempt {attempt+1}), retrying...", flush=True)
                 time.sleep(1)
             except Exception:
                 time.sleep(2)
 
+        if rural_confirmed:
+            print(f"{tag}   [2] ✓ {property_type} selected", flush=True)
+        else:
+            print(f"{tag}   [2] ⚠ Could not verify {property_type} after 10 attempts", flush=True)
+
         # Wait for district dropdown
+        print(f"{tag}   [3] Selecting district: {district}", flush=True)
         for _ in range(5):
             try:
                 sel = Select(driver.find_element(By.NAME, "district"))
@@ -245,10 +257,13 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
         # Select district
         if not select_with_workaround(driver, "district", district_value, district):
             return [], False, f"Could not select district: {district}"
+        print(f"{tag}   [3] ✓ District selected", flush=True)
         time.sleep(3)
 
         # Wait for mandal
+        print(f"{tag}   [4] Selecting mandal: {mandal}", flush=True)
         if not wait_for_dropdown_populated(driver, "Mandal", timeout=20):
+            print(f"{tag}   [4] Mandal dropdown empty, retrying district...", flush=True)
             select_with_workaround(driver, "district", district_value, district)
             time.sleep(5)
             if not wait_for_dropdown_populated(driver, "Mandal", timeout=20):
@@ -257,10 +272,13 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
         # Select mandal
         if not select_with_workaround(driver, "Mandal", mandal_value, mandal):
             return [], False, f"Could not select mandal: {mandal}"
+        print(f"{tag}   [4] ✓ Mandal selected", flush=True)
         time.sleep(3)
 
         # Wait for village
+        print(f"{tag}   [5] Selecting village: {village}", flush=True)
         if not wait_for_dropdown_populated(driver, "Village", timeout=20):
+            print(f"{tag}   [5] Village dropdown empty, retrying mandal...", flush=True)
             select_with_workaround(driver, "Mandal", mandal_value, mandal)
             time.sleep(5)
             if not wait_for_dropdown_populated(driver, "Village", timeout=15):
@@ -269,6 +287,7 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
         # Select village
         if not select_by_value_safe(driver, "Village", village_value, village):
             return [], False, f"Could not select village: {village}"
+        print(f"{tag}   [5] ✓ Village selected", flush=True)
         time.sleep(1)
 
         # Enter survey no = *
@@ -276,10 +295,12 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
             door_input = driver.find_element(By.ID, "surveyNo")
             door_input.clear()
             door_input.send_keys("*")
-        except Exception:
-            pass
+            print(f"{tag}   [6] ✓ Entered * in survey no", flush=True)
+        except Exception as e:
+            print(f"{tag}   [6] ⚠ Could not enter survey no: {e}", flush=True)
 
         # Click Get Details
+        print(f"{tag}   [7] Clicking Get Details...", flush=True)
         try:
             submit_btn = driver.find_element(
                 By.XPATH,
@@ -301,10 +322,12 @@ def scrape_single_location(driver, district, district_value, mandal, mandal_valu
             return [], False, f"Could not find submit button: {e}"
 
         # Wait for results
+        print(f"{tag}   [7] ✓ Submitted, waiting for results...", flush=True)
         time.sleep(8)
 
         # Scrape table
         data, headers = scrape_table(driver)
+        print(f"{tag}   [8] Scraped: {len(data)} rows", flush=True)
         return data, True, None
 
     except Exception as e:

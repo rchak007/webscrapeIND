@@ -547,3 +547,731 @@ Error sending stats to Plausible: error sending request for url (https://plausib
 
 [W1] [10:28:57] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
 [W0] ✓ 155 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W1] Starting — 7 districts, 4059 locations
+[W2] Starting — 6 districts, 2981 locations[W0] Starting Chrome...
+
+[W3] Starting — 6 districts, 2666 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR'][W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+
+
+[W3] Starting Chrome...
+[W2] Starting Chrome...
+[W1] Starting Chrome...
+[W2] FATAL ERROR: tuple index out of range
+[W0] FATAL ERROR: File is not a zip file
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 129, in _run
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unsuccessful command executed: /home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --language-binding python --output json; code: 65
+{'code': 65, 'message': 'error decoding response body', 'driver_path': '', 'browser_path': ''}
+
+
+
+The above exception was the direct cause of the following exception:
+
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 129, in _run
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unsuccessful command executed: /home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --language-binding python --output json; code: 65
+{'code': 65, 'message': 'error decoding response body', 'driver_path': '', 'browser_path': ''}
+
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 75, in create_driver
+    driver = webdriver.Chrome(options=options)
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 75, in create_driver
+    driver = webdriver.Chrome(options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/file_manager.py", line 65, in __extract_zip
+    archive.extractall(to_directory)
+  File "scrape_all_parallel.py", line 419, in worker_scrape_districts
+    driver = create_driver(headless=headless)
+  File "scrape_all_parallel.py", line 79, in create_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1659, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1714, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/shutil.py", line 205, in copyfileobj
+    buf = fsrc_read(length)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 942, in read
+    data = self._read1(n)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1010, in _read1
+    data += self._read2(n - len(data))
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/file_manager.py", line 63, in __extract_zip
+    archive = zip_class(archive_file.file_path)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1271, in __init__
+    self._RealGetContents()
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1338, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/zipfile.py", line 1045, in _read2
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 419, in worker_scrape_districts
+    driver = create_driver(headless=headless)
+  File "scrape_all_parallel.py", line 79, in create_driver
+    service = Service(ChromeDriverManager().install())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+zipfile.BadZipFile: File is not a zip file
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/manager.py", line 41, in _get_driver_binary_path
+    binary_path = self._cache_manager.save_file_to_cache(driver, file)
+
+[W0] ═══ FINISHED: 0 locations, 0 rows, 0 errors, time: 0:05:34 ═══  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/driver_cache.py", line 54, in save_file_to_cache
+    files = self.unpack_archive(archive, path)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/driver_cache.py", line 49, in unpack_archive
+    return self._file_manager.unpack_archive(archive, path)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/file_manager.py", line 57, in unpack_archive
+    return self.__extract_zip(archive_file, target_dir)
+
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/webdriver_manager/core/file_manager.py", line 67, in __extract_zip
+    if e.args[0] not in [26, 13] and e.args[1] not in [
+
+  Worker 0 completed: {'worker_id': 0, 'scraped': 0, 'rows': 0, 'errors': 0}
+IndexError: tuple index out of range
+
+[W2] ═══ FINISHED: 0 locations, 0 rows, 0 errors, time: 0:05:34 ═══
+
+  Worker 2 completed: {'worker_id': 2, 'scraped': 0, 'rows': 0, 'errors': 0}
+[W1] FATAL ERROR: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x587a2fc044e3 <unknown>
+#1 0x587a2f933c76 <unknown>
+#2 0x587a2f95a757 <unknown>
+#3 0x587a2f959029 <unknown>
+#4 0x587a2f997ccc <unknown>
+#5 0x587a2f99747f <unknown>
+#6 0x587a2f98ede3 <unknown>
+#7 0x587a2f9642dd <unknown>
+#8 0x587a2f96534e <unknown>
+#9 0x587a2fbc43e4 <unknown>
+#10 0x587a2fbc83d7 <unknown>
+#11 0x587a2fbd2b20 <unknown>
+#12 0x587a2fbc9023 <unknown>
+#13 0x587a2fb971aa <unknown>
+#14 0x587a2fbed6b8 <unknown>
+#15 0x587a2fbed847 <unknown>
+#16 0x587a2fbfd243 <unknown>
+#17 0x733fa2c94ac3 <unknown>
+
+Traceback (most recent call last):
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 129, in _run
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unsuccessful command executed: /home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --language-binding python --output json; code: 65
+{'code': 65, 'message': 'error decoding response body', 'driver_path': '', 'browser_path': ''}
+
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 75, in create_driver
+    driver = webdriver.Chrome(options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 419, in worker_scrape_districts
+    driver = create_driver(headless=headless)
+  File "scrape_all_parallel.py", line 80, in create_driver
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 241, in __init__
+    self.start_session(capabilities)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 329, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x587a2fc044e3 <unknown>
+#1 0x587a2f933c76 <unknown>
+#2 0x587a2f95a757 <unknown>
+#3 0x587a2f959029 <unknown>
+#4 0x587a2f997ccc <unknown>
+#5 0x587a2f99747f <unknown>
+#6 0x587a2f98ede3 <unknown>
+#7 0x587a2f9642dd <unknown>
+#8 0x587a2f96534e <unknown>
+#9 0x587a2fbc43e4 <unknown>
+#10 0x587a2fbc83d7 <unknown>
+#11 0x587a2fbd2b20 <unknown>
+#12 0x587a2fbc9023 <unknown>
+#13 0x587a2fb971aa <unknown>
+#14 0x587a2fbed6b8 <unknown>
+#15 0x587a2fbed847 <unknown>
+#16 0x587a2fbfd243 <unknown>
+#17 0x733fa2c94ac3 <unknown>
+
+
+[W1] ═══ FINISHED: 0 locations, 0 rows, 0 errors, time: 0:05:38 ═══
+
+  Worker 1 completed: {'worker_id': 1, 'scraped': 0, 'rows': 0, 'errors': 0}
+[W3] FATAL ERROR: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x59eb12e404e3 <unknown>
+#1 0x59eb12b6fc76 <unknown>
+#2 0x59eb12b96757 <unknown>
+#3 0x59eb12b95029 <unknown>
+#4 0x59eb12bd3ccc <unknown>
+#5 0x59eb12bd347f <unknown>
+#6 0x59eb12bcade3 <unknown>
+#7 0x59eb12ba02dd <unknown>
+#8 0x59eb12ba134e <unknown>
+#9 0x59eb12e003e4 <unknown>
+#10 0x59eb12e043d7 <unknown>
+#11 0x59eb12e0eb20 <unknown>
+#12 0x59eb12e05023 <unknown>
+#13 0x59eb12dd31aa <unknown>
+#14 0x59eb12e296b8 <unknown>
+#15 0x59eb12e29847 <unknown>
+#16 0x59eb12e39243 <unknown>
+#17 0x71df5ba94ac3 <unknown>
+
+Traceback (most recent call last):
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 129, in _run
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unsuccessful command executed: /home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --language-binding python --output json; code: 65
+{'code': 65, 'message': 'error decoding response body', 'driver_path': '', 'browser_path': ''}
+
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 75, in create_driver
+    driver = webdriver.Chrome(options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scrape_all_parallel.py", line 419, in worker_scrape_districts
+    driver = create_driver(headless=headless)
+  File "scrape_all_parallel.py", line 80, in create_driver
+    driver = webdriver.Chrome(service=service, options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 241, in __init__
+    self.start_session(capabilities)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 329, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/rchak007/anaconda3/envs/allu/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x59eb12e404e3 <unknown>
+#1 0x59eb12b6fc76 <unknown>
+#2 0x59eb12b96757 <unknown>
+#3 0x59eb12b95029 <unknown>
+#4 0x59eb12bd3ccc <unknown>
+#5 0x59eb12bd347f <unknown>
+#6 0x59eb12bcade3 <unknown>
+#7 0x59eb12ba02dd <unknown>
+#8 0x59eb12ba134e <unknown>
+#9 0x59eb12e003e4 <unknown>
+#10 0x59eb12e043d7 <unknown>
+#11 0x59eb12e0eb20 <unknown>
+#12 0x59eb12e05023 <unknown>
+#13 0x59eb12dd31aa <unknown>
+#14 0x59eb12e296b8 <unknown>
+#15 0x59eb12e29847 <unknown>
+#16 0x59eb12e39243 <unknown>
+#17 0x71df5ba94ac3 <unknown>
+
+
+[W3] ═══ FINISHED: 0 locations, 0 rows, 0 errors, time: 0:05:39 ═══
+
+  Worker 3 completed: {'worker_id': 3, 'scraped': 0, 'rows': 0, 'errors': 0}
+
+============================================================
+Combining all results...
+============================================================
+  ✓ Combined CSV: ./data/ALL_prohibited_properties_20260312_144703.csv
+  Total rows: 373472
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W1] Starting — 7 districts, 4059 locations
+
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W0] Starting Chrome...
+[W3] Starting — 6 districts, 2666 locations
+
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Starting Chrome...
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W3] [14:55:36] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+[W1] [14:55:52] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: ALAPALLE
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1] ✗ Page failed to load
+[W3]   [8] Scraped: 355 rows
+There was an error managing chromedriver (error decoding response body); using driver found in the cache
+There was an error managing chromedriver (error decoding response body); using driver found in the cache
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W2] Starting — 6 districts, 2981 locations
+[W3] Starting — 6 districts, 2666 locations
+
+
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W3] Starting Chrome...
+[W0] Starting Chrome...
+[W1] Starting Chrome...
+[W2] Starting Chrome...
+
+[W0] [01:33:30] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+
+[W2] [01:33:30] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W0]   [1] Loading page...
+[W1] [01:33:30] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem[W2]   [1] Loading page...
+
+
+[W3] [01:33:30] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+
+[W3]   [1] Loading page...
+[W1]   [1] Loading page...
+[W1]   [1] ✓ Page loaded
+[W2]   [1] ✓ Page loaded
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W3]   [3] ✓ District selected
+[W2]   [3] ✓ District selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W1]   [3] ✓ District selected
+[W3]   [4] ✓ Mandal selected
+[W2]   [4] ✓ Mandal selected
+[W1]   [4] Selecting mandal: MAKAVARAPALEM
+[W3]   [5] Selecting village: ALAPALLE
+[W2]   [5] Selecting village: B.KOTHAKOTA
+[W1]   [4] ✓ Mandal selected
+[W2]   [5] ✓ Village selected
+[W3]   [5] ✓ Village selected
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1]   [5] Selecting village: Bheemaboinapalem
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0] ✗ Page failed to load
+[W3]   [8] Scraped: 355 rows
+[W1]   [8] Scraped: 356 rows
+[W2]   [8] Scraped: 2689 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W0] Starting Chrome...
+[W1] Starting — 7 districts, 4059 locations
+
+[W3] Starting — 6 districts, 2666 locations
+
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+[W2] Starting — 6 districts, 2981 locations[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+
+[W2] Starting Chrome...[W3] Starting Chrome...
+
+[W1] Starting Chrome...
+
+[W2] [21:26:13] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+
+[W1] [21:26:13] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+
+[W3] [21:26:14] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+[W0] [21:26:14] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+[W1]   [1] ✓ Page loaded
+[W2]   [1] ✓ Page loaded
+[W3]   [1] ✓ Page loaded
+[W0]   [1] ✓ Page loaded
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W1]   [3] ✓ District selected
+[W2]   [3] ✓ District selected
+[W3]   [3] ✓ District selected
+[W0]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: MAKAVARAPALEM
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W1]   [4] ✓ Mandal selected
+[W2]   [4] ✓ Mandal selected
+[W0]   [4] ✓ Mandal selected
+[W3]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: Bheemaboinapalem
+[W1]   [5] ✓ Village selected
+[W2]   [5] Selecting village: B.KOTHAKOTA
+[W0]   [5] Selecting village: BORRAMPALEM
+[W3]   [5] Selecting village: ALAPALLE
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W2]   [5] ✓ Village selected
+[W0]   [5] ✓ Village selected
+[W3]   [5] ✓ Village selected
+[W1]   [7] ✓ Submitted, waiting for results...
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 155 rows
+[W0] ✓ 155 rows
+[W1]   [8] Scraped: 356 rows
+[W3]   [8] Scraped: 355 rows
+[W2]   [8] Scraped: 2689 rows
