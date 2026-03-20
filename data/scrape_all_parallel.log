@@ -1275,3 +1275,1274 @@ PARALLEL Scrape All Locations
 [W1]   [8] Scraped: 356 rows
 [W3]   [8] Scraped: 355 rows
 [W2]   [8] Scraped: 2689 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W2] Starting — 6 districts, 2981 locations
+
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+[W0] Starting Chrome...[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Starting Chrome...
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W2] [02:16:05] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+[W3] [02:16:05] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+
+[W0] [02:16:05] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+
+[W1] [02:16:05] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W1] Starting — 7 districts, 4059 locations
+[W0] Starting — 7 districts, 3919 locations
+
+[W2] Starting — 6 districts, 2981 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM'][W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+
+[W2] Starting Chrome...
+
+[W3] Starting — 6 districts, 2666 locations
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR'][W0] Starting Chrome...
+
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W3] [02:16:29] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+[W2] [02:16:29] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+
+[W1] [02:16:29] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+
+[W0] [02:16:29] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W0]   [1] ✓ Page loaded
+[W2]   [1] ✓ Page loaded
+[W1]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W0]   [3] ✓ District selected
+[W1]   [3] ✓ District selected
+[W2]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W3]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: MAKAVARAPALEM
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W0]   [4] ✓ Mandal selected
+[W1]   [4] ✓ Mandal selected
+[W2]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: BORRAMPALEM
+[W3]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: Bheemaboinapalem
+[W2]   [5] Selecting village: B.KOTHAKOTA
+[W0]   [5] ✓ Village selected
+[W2]   [5] ✓ Village selected
+[W1]   [5] ✓ Village selected
+[W3]   [5] Selecting village: ALAPALLE
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W3]   [5] ✓ Village selected
+[W1]   [7] ✓ Submitted, waiting for results...
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 155 rows
+[W0] ✓ 155 rows
+[W1]   [8] Scraped: 356 rows
+[W3]   [8] Scraped: 355 rows
+[W2]   [8] Scraped: 2689 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W2] Starting — 6 districts, 2981 locations
+[W3] Starting — 6 districts, 2666 locations
+[W1] Starting — 7 districts, 4059 locations
+
+
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W0] Starting — 7 districts, 3919 locations[W2] Starting Chrome...
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W3] Starting Chrome...
+[W0] Starting Chrome...
+[W1] Starting Chrome...
+
+[W1] [21:49:27] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+
+[W3] [21:49:27] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+[W0] [21:49:28] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+
+[W2] [21:49:28] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W1]   [1] ✓ Page loaded
+[W3]   [1] ✓ Page loaded
+[W2]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W1]   [2] rural not confirmed (attempt 4), retrying...
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W0]   [3] ✓ District selected
+[W3]   [3] ✓ District selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W2]   [2] rural not confirmed (attempt 4), retrying...
+[W1]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: MAKAVARAPALEM
+[W0]   [4] ✓ Mandal selected
+[W3]   [4] ✓ Mandal selected
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W1]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: BORRAMPALEM
+[W3]   [5] Selecting village: ALAPALLE
+[W0]   [5] ✓ Village selected
+[W3]   [5] ✓ Village selected
+[W1]   [5] Selecting village: Bheemaboinapalem
+[W2]   [3] ✓ District selected
+[W1]   [5] ✓ Village selected
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W2]   [4] ✓ Mandal selected
+[W2]   [5] Selecting village: B.KOTHAKOTA
+[W2]   [5] ✓ Village selected
+[W1]   [8] Scraped: 0 rows
+[W1] ✓ 0 rows
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W2]   [8] Scraped: 0 rows
+[W0]   [8] Scraped: 155 rows
+[W3]   [8] Scraped: 355 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       False
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+[W1] Starting — 7 districts, 4059 locations
+[W0] Starting Chrome...
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+[W3] Starting — 6 districts, 2666 locations
+
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W2] Starting Chrome...
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W2] [21:10:01] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+
+[W1] [21:10:01] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+[W1]   [1] Loading page...
+[W2]   [1] ✓ Page loaded
+[W1]   [1] ✓ Page loaded
+
+[W0] [21:10:32] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W0]   [1] ✓ Page loaded
+[W1]   [3] ✓ District selected
+
+[W3] [21:10:45] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+[W2]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: MAKAVARAPALEM
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W1]   [4] ✓ Mandal selected
+[W2]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: Bheemaboinapalem
+[W2]   [5] Selecting village: B.KOTHAKOTA
+[W3]   [1] ✓ Page loaded
+[W2]   [5] ✓ Village selected
+[W1]   [5] ✓ Village selected
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W2]   [8] Scraped: 0 rows
+[W2] ✓ 0 rows
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: BORRAMPALEM
+[W0]   [5] ✓ Village selected
+[W3]   [2] rural not confirmed (attempt 4), retrying...
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [2] rural not confirmed (attempt 5), retrying...
+[W3]   [2] rural not confirmed (attempt 6), retrying...
+[W3]   [2] rural not confirmed (attempt 7), retrying...
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: ALAPALLE
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 155 rows
+[W1]   [8] Scraped: 356 rows
+[W3]   [8] Scraped: 355 rows
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    149
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 5 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3054 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+[W0] Starting Chrome...
+[W2] Starting — 6 districts, 2981 locations
+
+
+[W3] Starting — 6 districts, 2666 locations[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+[W2] Starting Chrome...
+[W3] Starting Chrome...
+[W1] Starting — 7 districts, 4059 locations
+[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W1] Starting Chrome...
+
+[W2] [21:31:39] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+[W0] [21:31:39] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+
+[W1] [21:31:39] (19.2% overall) ANAKAPALLI → MAKAVARAPALEM → Bheemaboinapalem
+
+[W1]   [1] Loading page...
+[W0]   [1] Loading page...
+[W3] [21:31:39] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+
+[W3]   [1] Loading page...
+[W3] ✗ Page failed to load
+[W2] ✗ Page failed to load
+[W0] ✗ Page failed to load
+[W1] ✗ Page failed to load
+
+[W3] [21:32:42] (19.2% overall | ETA: 49.5h) CHITTOOR → BAIREDDI PALLE → BAIREDDIPALLE
+[W3]   [1] Loading page...
+
+[W2] [21:32:42] (19.2% overall | ETA: 55.4h) ANNAMAYYA → B KOTHAKOTA → BADIKAYALAPALLE
+[W2]   [1] Loading page...
+
+[W0] [21:32:42] (19.2% overall | ETA: 72.9h) KAKINADA → GANDEPALLE → GANDEPALLE
+[W0]   [1] Loading page...
+
+[W1] [21:32:42] (19.2% overall | ETA: 75.6h) ANAKAPALLI → MAKAVARAPALEM → Burugupalem
+[W1]   [1] Loading page...
+[W2] ✗ Page failed to load
+[W0] ✗ Page failed to load
+[W1] ✗ Page failed to load
+[W3] ✗ Page failed to load
+
+[W2] [21:33:45] (19.2% overall | ETA: 53.8h) ANNAMAYYA → B KOTHAKOTA → BEERANGI
+[W2]   [1] Loading page...
+
+[W0] [21:33:45] (19.2% overall | ETA: 70.9h) KAKINADA → GANDEPALLE → MALLEPALLE
+[W0]   [1] Loading page...
+
+[W1] [21:33:45] (19.2% overall | ETA: 73.5h) ANAKAPALLI → NAKKAPALLI → Rajauyyapeta
+[W1]   [1] Loading page...
+
+[W3] [21:33:45] (19.2% overall | ETA: 48.4h) CHITTOOR → BAIREDDI PALLE → BELUPALLE
+[W3]   [1] Loading page...
+============================================================
+PARALLEL Scrape All Locations
+============================================================
+  Master list:    ./data/master_list_rural_20260221_101737.csv
+  Total locations: 15727
+  Total districts: 27
+  Workers:        4
+  Headless:       True
+  Property type:  rural
+============================================================
+
+  Previously completed: 3026
+  Previously failed:    155
+  Remaining:            ~12701
+
+  Districts with remaining work: 26
+    SRIKAKULAM: 1483 remaining
+    TIRUPATI: 1032 remaining
+    VIZIANAGARAM: 999 remaining
+    CHITTOOR: 775 remaining
+    YSR KADAPA: 703 remaining
+    PARVATIPURAM MANYAM: 654 remaining
+    SPSR NELLORE: 641 remaining
+    ELURU: 616 remaining
+    KRISHNA: 517 remaining
+    SRI SATHYA SAI: 462 remaining
+    KURNOOL: 450 remaining
+    NANDYAL: 441 remaining
+    KAKINADA: 412 remaining
+    PALNADU: 364 remaining
+    PRAKASAM: 360 remaining
+    WEST GODAVARI: 326 remaining
+    NTR: 313 remaining
+    MARKAPURAM: 305 remaining
+    ANNAMAYYA: 301 remaining
+    EAST GODAVARI: 279 remaining
+    KONASEEMA: 278 remaining
+    ANANTAPUR: 232 remaining
+    BAPATLA: 230 remaining
+    GUNTUR: 229 remaining
+    VISAKHAPATNAM: 213 remaining
+    ANAKAPALLI: 3 remaining
+
+  Work distribution across 4 workers:
+    Worker 0: 7 districts, ~3919 locations — ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+    Worker 1: 7 districts, ~3052 locations — ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+    Worker 2: 6 districts, ~2981 locations — ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA']
+    Worker 3: 6 districts, ~2666 locations — ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+============================================================
+  LAUNCHING 4 WORKERS
+============================================================
+
+
+[W0] Starting — 7 districts, 3919 locations
+[W1] Starting — 7 districts, 4059 locations
+
+[W2] Starting — 6 districts, 2981 locations
+[W2] Districts: ['VIZIANAGARAM', 'SPSR NELLORE', 'KURNOOL', 'PRAKASAM', 'ANNAMAYYA', 'BAPATLA'][W0] Districts: ['SRIKAKULAM', 'YSR KADAPA', 'KRISHNA', 'KAKINADA', 'NTR', 'KONASEEMA', 'VISAKHAPATNAM']
+
+
+[W0] Starting Chrome...[W1] Districts: ['TIRUPATI', 'PARVATIPURAM MANYAM', 'SRI SATHYA SAI', 'PALNADU', 'MARKAPURAM', 'ANANTAPUR', 'ANAKAPALLI']
+
+[W3] Starting — 6 districts, 2666 locations
+[W2] Starting Chrome...
+[W3] Districts: ['CHITTOOR', 'ELURU', 'NANDYAL', 'WEST GODAVARI', 'EAST GODAVARI', 'GUNTUR']
+
+[W3] Starting Chrome...
+[W1] Starting Chrome...
+
+[W2] [21:34:30] (19.2% overall) ANNAMAYYA → B KOTHAKOTA → B.KOTHAKOTA
+[W2]   [1] Loading page...
+
+[W0] [21:34:30] (19.2% overall) KAKINADA → GANDEPALLE → BORRAMPALEM
+[W0]   [1] Loading page...
+
+[W3] [21:34:30] (19.2% overall) CHITTOOR → BAIREDDI PALLE → ALAPALLE
+[W3]   [1] Loading page...
+
+[W1] [21:34:31] (19.2% overall) ANAKAPALLI → NAKKAPALLI → Rajauyyapeta
+[W1]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W0]   [1] ✓ Page loaded
+[W3]   [3] ✓ District selected
+[W1]   [1] ✓ Page loaded
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: ALAPALLE
+[W0]   [3] ✓ District selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1]   [3] ✓ District selected
+[W0]   [4] ✓ Mandal selected
+[W1]   [4] Selecting mandal: NAKKAPALLI
+[W0]   [5] Selecting village: BORRAMPALEM
+[W0]   [5] ✓ Village selected
+[W1]   [4] ✓ Mandal selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [5] Selecting village: Rajauyyapeta
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W2] ✗ Page failed to load
+
+[W2] [21:35:34] (19.2% overall | ETA: 59.1h) ANNAMAYYA → B KOTHAKOTA → BADIKAYALAPALLE
+[W2]   [1] Loading page...
+[W2]   [1] ✓ Page loaded
+[W1]   [8] Scraped: 0 rows
+[W1] ✓ 0 rows
+
+[W1] [21:35:44] (19.2% overall | ETA: 92.5h) ANAKAPALLI → RAVIKAMATHAM → Chalisingam
+[W1]   [1] Loading page...
+[W1]   [1] ✓ Page loaded
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W1]   [3] ✓ District selected
+[W2]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: RAVIKAMATHAM
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: Chalisingam
+[W1]   [5] ✓ Village selected
+[W2]   [4] ✓ Mandal selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W2]   [5] Selecting village: BADIKAYALAPALLE
+[W2]   [5] Village dropdown empty, retrying mandal...
+[W0]   [8] Scraped: 155 rows
+[W0] ✓ 155 rows → KAKINADA_GANDEPALLE_BORRAMPALEM.csv
+[W2] ✗ Village dropdown empty for B KOTHAKOTA
+
+[W0] [21:37:07] (19.3% overall | ETA: 179.4h) KAKINADA → GANDEPALLE → GANDEPALLE
+[W0]   [1] Loading page...
+
+[W2] [21:37:08] (19.3% overall | ETA: 68.5h) ANNAMAYYA → B KOTHAKOTA → BEERANGI
+[W2]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: GANDEPALLE
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 0 rows
+[W0] ✓ 0 rows
+
+[W0] [21:38:01] (19.3% overall | ETA: 119.1h) KAKINADA → GANDEPALLE → MALLEPALLE
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W2] ✗ Page failed to load
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+
+[W2] [21:38:12] (19.3% overall | ETA: 63.2h) ANNAMAYYA → B KOTHAKOTA → BOYYAPPAGARIPALLE
+[W2]   [1] Loading page...
+[W0]   [3] ✓ District selected
+[W1]   [8] Scraped: 210 rows
+[W1] ✓ 210 rows → ANAKAPALLI_RAVIKAMATHAM_Chalisingam.csv
+[W2]   [1] ✓ Page loaded
+[W0]   [4] Selecting mandal: GANDEPALLE
+
+[W1] [21:38:18] (19.3% overall | ETA: 132.8h) ANAKAPALLI → ROLUGUNTA → Addasaram
+[W1]   [1] Loading page...
+[W0]   [4] ✓ Mandal selected
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W0]   [5] Selecting village: MALLEPALLE
+[W0]   [5] ✓ Village selected
+[W3]   [8] Scraped: 355 rows
+[W3] ✓ 355 rows → CHITTOOR_BAIREDDI_PALLE_ALAPALLE.csv
+[W2]   [3] ✓ District selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+
+[W3] [21:38:30] (19.3% overall | ETA: 183.0h) CHITTOOR → BAIREDDI PALLE → BAIREDDIPALLE
+[W3]   [1] Loading page...
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W1]   [1] ✓ Page loaded
+[W2]   [4] ✓ Mandal selected
+[W3]   [1] ✓ Page loaded
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANAKAPALLI
+[W2]   [5] Selecting village: BOYYAPPAGARIPALLE
+[W2]   [5] ✓ Village selected
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W1]   [3] ✓ District selected
+[W2]   [7] ✓ Submitted, waiting for results...
+[W1]   [4] Selecting mandal: ROLUGUNTA
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: Addasaram
+[W3]   [4] ✓ Mandal selected
+[W1]   [5] ✓ Village selected
+[W3]   [5] Selecting village: BAIREDDIPALLE
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 567 rows
+[W0] ✓ 567 rows → KAKINADA_GANDEPALLE_MALLEPALLE.csv
+
+[W0] [21:44:32] (19.3% overall | ETA: 221.0h) KAKINADA → GANDEPALLE → MURARI
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W1]   [8] Scraped: 528 rows
+[W1] ✓ 528 rows → ANAKAPALLI_ROLUGUNTA_Addasaram.csv
+[W0]   [3] ✓ District selected
+[W1] [21:44:45] (19.3% overall | ETA: 233.9h) ANANTAPUR → PAMIDI → RAMARAJUPALLE
+
+[W1]   [1] Loading page...
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W1]   [1] ✓ Page loaded
+[W0]   [4] ✓ Mandal selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W0]   [5] Selecting village: MURARI
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W1]   [3] ✓ District selected
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [4] Selecting mandal: PAMIDI
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: RAMARAJUPALLE
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W1]   [8] Scraped: 204 rows
+[W1] ✓ 204 rows → ANANTAPUR_PAMIDI_RAMARAJUPALLE.csv
+
+[W1] [21:47:20] (19.3% overall | ETA: 218.9h) ANANTAPUR → PAMIDI → SORAKAYALAPETA
+[W1]   [1] Loading page...
+[W1]   [1] ✓ Page loaded
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W1]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: PAMIDI
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: SORAKAYALAPETA
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W1]   [8] Scraped: 124 rows
+[W1] ✓ 124 rows → ANANTAPUR_PAMIDI_SORAKAYALAPETA.csv
+
+[W1] [21:49:18] (19.3% overall | ETA: 201.7h) ANANTAPUR → PAMIDI → THAMBALLAPALLE
+[W1]   [1] Loading page...
+[W1]   [1] ✓ Page loaded
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W1]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: PAMIDI
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: THAMBALLAPALLE
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W1]   [8] Scraped: 90 rows
+[W1] ✓ 90 rows → ANANTAPUR_PAMIDI_THAMBALLAPALLE.csv
+
+[W1] [21:50:55] (19.3% overall | ETA: 186.3h) ANANTAPUR → PAMIDI → VANKARAJUKALVA
+[W1]   [1] Loading page...
+[W3]   [8] Scraped: 1220 rows
+[W3] ✓ 1220 rows → CHITTOOR_BAIREDDI_PALLE_BAIREDDIPALLE.csv
+[W1]   [1] ✓ Page loaded
+
+[W3] [21:51:02] (19.3% overall | ETA: 369.7h) CHITTOOR → BAIREDDI PALLE → BELUPALLE
+[W3]   [1] Loading page...
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W0]   [8] Scraped: 657 rows
+[W0] ✓ 657 rows → KAKINADA_GANDEPALLE_MURARI.csv
+[W3]   [1] ✓ Page loaded
+
+[W0] [21:51:06] (19.3% overall | ETA: 272.9h) KAKINADA → GANDEPALLE → NORTH TIRUPATHI RAJAPUR
+[W0]   [1] Loading page...
+[W1]   [3] ✓ District selected
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W1]   [4] Selecting mandal: PAMIDI
+[W0]   [1] ✓ Page loaded
+[W3]   [3] ✓ District selected
+[W1]   [4] ✓ Mandal selected
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W1]   [5] Selecting village: VANKARAJUKALVA
+[W0]   [3] ✓ District selected
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W3]   [4] ✓ Mandal selected
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W3]   [5] Selecting village: BELUPALLE
+[W3]   [5] ✓ Village selected
+[W0]   [4] ✓ Mandal selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [5] Selecting village: NORTH TIRUPATHI RAJAPUR
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W2]   [8] Scraped: 1371 rows
+[W2] ✓ 1371 rows → ANNAMAYYA_B_KOTHAKOTA_BOYYAPPAGARIPALLE.csv
+
+[W2] [21:51:34] (19.3% overall | ETA: 213.3h) ANNAMAYYA → B KOTHAKOTA → GATTU
+[W2]   [1] Loading page...
+[W2]   [1] ✓ Page loaded
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W2]   [3] ✓ District selected
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W2]   [4] ✓ Mandal selected
+[W2]   [5] Selecting village: GATTU
+[W2]   [5] ✓ Village selected
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 163 rows
+[W0] ✓ 163 rows → KAKINADA_GANDEPALLE_NORTH_TIRUPATHI_RAJAPUR.csv
+
+[W0] [21:52:49] (19.3% overall | ETA: 240.6h) KAKINADA → GANDEPALLE → P.NAYAKAMPALLE
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: P.NAYAKAMPALLE
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [8] Scraped: 378 rows
+[W1] ✓ 378 rows → ANANTAPUR_PAMIDI_VANKARAJUKALVA.csv
+
+[W1] [21:54:06] (19.3% overall | ETA: 190.4h) ANANTAPUR → PEDDAPAPPUR → AMALLADINNE
+[W1]   [1] Loading page...
+[W0]   [8] Scraped: 202 rows
+[W0] ✓ 202 rows → KAKINADA_GANDEPALLE_P_NAYAKAMPALLE.csv
+
+[W0] [21:54:57] (19.3% overall | ETA: 223.7h) KAKINADA → GANDEPALLE → SINGARAMPALEM
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W1] ✗ Page failed to load
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+
+[W1] [21:55:10] (19.3% overall | ETA: 175.4h) ANANTAPUR → PEDDAPAPPUR → ATHIRALLADINNE
+[W1]   [1] Loading page...
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W1]   [1] ✓ Page loaded
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: SINGARAMPALEM
+[W0]   [5] ✓ Village selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [3] ✓ District selected
+[W1]   [4] Selecting mandal: PEDDAPAPPUR
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: ATHIRALLADINNE
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 92 rows
+[W0] ✓ 92 rows → KAKINADA_GANDEPALLE_SINGARAMPALEM.csv
+
+[W0] [21:56:27] (19.3% overall | ETA: 205.6h) KAKINADA → GANDEPALLE → SURAMPALEM
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: SURAMPALEM
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 893 rows
+[W3] ✓ 893 rows → CHITTOOR_BAIREDDI_PALLE_BELUPALLE.csv
+
+[W3] [21:57:58] (19.4% overall | ETA: 349.2h) CHITTOOR → BAIREDDI PALLE → CHAPPIDIPALLE
+[W3]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W1]   [8] Scraped: 296 rows
+[W1] ✓ 296 rows → ANANTAPUR_PEDDAPAPPUR_ATHIRALLADINNE.csv
+
+[W1] [21:58:06] (19.4% overall | ETA: 177.9h) ANANTAPUR → PEDDAPAPPUR → CHAGALLU
+[W1]   [1] Loading page...
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W1]   [1] ✓ Page loaded
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W3]   [4] ✓ Mandal selected
+[W1]   [3] ✓ District selected
+[W3]   [5] Selecting village: CHAPPIDIPALLE
+[W1]   [4] Selecting mandal: PEDDAPAPPUR
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1]   [4] ✓ Mandal selected
+[W1]   [5] Selecting village: CHAGALLU
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 376 rows
+[W0] ✓ 376 rows → KAKINADA_GANDEPALLE_SURAMPALEM.csv
+
+[W0] [21:59:29] (19.4% overall | ETA: 204.6h) KAKINADA → GANDEPALLE → TALLURU
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: TALLURU
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 320 rows
+[W3] ✓ 320 rows → CHITTOOR_BAIREDDI_PALLE_CHAPPIDIPALLE.csv
+
+[W3] [22:00:51] (19.4% overall | ETA: 293.7h) CHITTOOR → BAIREDDI PALLE → DEVADODDI
+[W3]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: DEVADODDI
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 216 rows
+[W0] ✓ 216 rows → KAKINADA_GANDEPALLE_TALLURU.csv
+
+[W0] [22:01:34] (19.4% overall | ETA: 196.9h) KAKINADA → GANDEPALLE → UPPALAPADU
+[W0]   [1] Loading page...
+[W1]   [8] Scraped: 420 rows
+[W1] ✓ 420 rows → ANANTAPUR_PEDDAPAPPUR_CHAGALLU.csv
+
+[W1] [22:01:38] (19.4% overall | ETA: 183.9h) ANANTAPUR → PEDDAPAPPUR → CHINNAYAKKALURU
+[W1]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W1]   [1] ✓ Page loaded
+[W0]   [3] ✓ District selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W1]   [3] ✓ District selected
+[W0]   [4] ✓ Mandal selected
+[W1]   [4] Selecting mandal: PEDDAPAPPUR
+[W0]   [5] Selecting village: UPPALAPADU
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W1]   [4] ✓ Mandal selected
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [5] Selecting village: CHINNAYAKKALURU
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 282 rows
+[W0] ✓ 282 rows → KAKINADA_GANDEPALLE_UPPALAPADU.csv
+
+[W0] [22:04:06] (19.4% overall | ETA: 193.7h) KAKINADA → GANDEPALLE → YELLAMILLI
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: YELLAMILLI
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 530 rows
+[W3] ✓ 530 rows → CHITTOOR_BAIREDDI_PALLE_DEVADODDI.csv
+
+[W3] [22:05:01] (19.4% overall | ETA: 271.8h) CHITTOOR → BAIREDDI PALLE → DHARMAPURE
+[W3]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: DHARMAPURE
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 92 rows
+[W3] ✓ 92 rows → CHITTOOR_BAIREDDI_PALLE_DHARMAPURE.csv
+
+[W3] [22:06:29] (19.4% overall | ETA: 237.2h) CHITTOOR → BAIREDDI PALLE → DONTHIRALLAPALLE
+[W3]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: DONTHIRALLAPALLE
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 317 rows
+[W0] ✓ 317 rows → KAKINADA_GANDEPALLE_YELLAMILLI.csv
+
+[W0] [22:07:03] (19.4% overall | ETA: 193.5h) KAKINADA → GANDEPALLE → YERRAMPALEM
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: YERRAMPALEM
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 176 rows
+[W3] ✓ 176 rows → CHITTOOR_BAIREDDI_PALLE_DONTHIRALLAPALLE.csv
+[W2]   [8] Scraped: 2370 rows
+[W2] ✓ 2370 rows → ANNAMAYYA_B_KOTHAKOTA_GATTU.csv
+
+[W3] [22:08:24] (19.4% overall | ETA: 215.4h) CHITTOOR → BAIREDDI PALLE → GANGINAYANIPALLE
+[W3]   [1] Loading page...
+
+[W2] [22:08:24] (19.4% overall | ETA: 337.6h) ANNAMAYYA → B KOTHAKOTA → GOLLAPALLE
+[W2]   [1] Loading page...
+[W2]   [1] ✓ Page loaded
+[W2]   [2] ✓ rural selected
+[W2]   [3] Selecting district: ANNAMAYYA
+[W2]   [3] ✓ District selected
+[W2]   [4] Selecting mandal: B KOTHAKOTA
+[W2]   [4] ✓ Mandal selected
+[W2]   [5] Selecting village: GOLLAPALLE
+[W2]   [5] ✓ Village selected
+[W2]   [6] ✓ Entered * in survey no
+[W2]   [7] Clicking Get Details...
+[W2]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 278 rows
+[W0] ✓ 278 rows → KAKINADA_GANDEPALLE_YERRAMPALEM.csv
+
+[W0] [22:09:15] (19.4% overall | ETA: 189.2h) KAKINADA → GANDEPALLE → ZAMINDAR RAGAMPETA
+[W0]   [1] Loading page...
+[W1]   [8] Scraped: 1098 rows
+[W1] ✓ 1098 rows → ANANTAPUR_PEDDAPAPPUR_CHINNAYAKKALURU.csv
+
+[W1] [22:09:23] (19.4% overall | ETA: 214.7h) ANANTAPUR → PEDDAPAPPUR → DEVANUPPALAPADU
+[W1]   [1] Loading page...
+[W3] ✗ Page failed to load
+
+[W3] [22:09:26] (19.4% overall | ETA: 194.2h) CHITTOOR → BAIREDDI PALLE → GOLLACHEMANAPALLE
+[W3]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W3]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W1]   [1] ✓ Page loaded
+[W0]   [3] ✓ District selected
+[W3]   [3] ✓ District selected
+[W1]   [2] ✓ rural selected
+[W1]   [3] Selecting district: ANANTAPUR
+[W0]   [4] Selecting mandal: GANDEPALLE
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W1]   [3] ✓ District selected
+[W0]   [4] ✓ Mandal selected
+[W3]   [4] ✓ Mandal selected
+[W1]   [4] Selecting mandal: PEDDAPAPPUR
+[W0]   [5] Selecting village: ZAMINDAR RAGAMPETA
+[W3]   [5] Selecting village: GOLLACHEMANAPALLE
+[W0]   [5] ✓ Village selected
+[W3]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...
+[W1]   [4] ✓ Mandal selected
+[W3]   [7] ✓ Submitted, waiting for results...
+[W1]   [5] Selecting village: DEVANUPPALAPADU
+[W1]   [5] ✓ Village selected
+[W1]   [6] ✓ Entered * in survey no
+[W1]   [7] Clicking Get Details...
+[W1]   [7] ✓ Submitted, waiting for results...
+[W3]   [8] Scraped: 264 rows
+[W3] ✓ 264 rows → CHITTOOR_BAIREDDI_PALLE_GOLLACHEMANAPALLE.csv
+
+[W3] [22:12:12] (19.4% overall | ETA: 186.1h) CHITTOOR → BAIREDDI PALLE → GOUNITHIMMEPALLE
+[W3]   [1] Loading page...
+[W3]   [1] ✓ Page loaded
+[W3]   [2] ✓ rural selected
+[W3]   [3] Selecting district: CHITTOOR
+[W3]   [3] ✓ District selected
+[W3]   [4] Selecting mandal: BAIREDDI PALLE
+[W3]   [4] ✓ Mandal selected
+[W3]   [5] Selecting village: GOUNITHIMMEPALLE
+[W3]   [5] ✓ Village selected
+[W3]   [6] ✓ Entered * in survey no
+[W3]   [7] Clicking Get Details...
+[W3]   [7] ✓ Submitted, waiting for results...
+[W0]   [8] Scraped: 352 rows
+[W0] ✓ 352 rows → KAKINADA_GANDEPALLE_ZAMINDAR_RAGAMPETA.csv
+
+[W0] [22:12:53] (19.5% overall | ETA: 192.9h) KAKINADA → GOLLAPROLU → CHEBROLU
+[W0]   [1] Loading page...
+[W0]   [1] ✓ Page loaded
+[W0]   [2] ✓ rural selected
+[W0]   [3] Selecting district: KAKINADA
+[W0]   [3] ✓ District selected
+[W0]   [4] Selecting mandal: GOLLAPROLU
+[W0]   [4] ✓ Mandal selected
+[W0]   [5] Selecting village: CHEBROLU
+[W0]   [5] ✓ Village selected
+[W0]   [6] ✓ Entered * in survey no
+[W0]   [7] Clicking Get Details...
+[W0]   [7] ✓ Submitted, waiting for results...

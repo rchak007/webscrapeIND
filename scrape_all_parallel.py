@@ -445,27 +445,38 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                 worker_id=worker_id
             )
 
+            # Save CSV OUTSIDE the lock — file I/O is slow and was deadlocking workers
+            village_csv = None
+            if success and data:
+                for row_data in data:
+                    row_data["_district"] = district
+                    row_data["_mandal"] = mandal
+                    row_data["_village"] = village
+                    row_data["_scraped_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                safe_name = re.sub(r'[^\w]', '_', f"{district}_{mandal}_{village}")[:100]
+                village_csv = os.path.join(output_dir, "per_village", f"{safe_name}.csv")
+                df_village = pd.DataFrame(data)
+                df_village.to_csv(village_csv, index=False, encoding="utf-8-sig")
+                print(f"{tag} ✓ {len(data)} rows → {os.path.basename(village_csv)}", flush=True)
+                worker_rows += len(data)
+
+            elif success and not data:
+                print(f"{tag} ✓ 0 rows", flush=True)
+
+            else:
+                print(f"{tag} ✗ {error}", flush=True)
+                worker_errors += 1
+
+            # Update progress dict INSIDE the lock — fast dict update only
             with progress_lock:
                 if success and data:
-                    for row_data in data:
-                        row_data["_district"] = district
-                        row_data["_mandal"] = mandal
-                        row_data["_village"] = village
-                        row_data["_scraped_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-                    safe_name = re.sub(r'[^\w]', '_', f"{district}_{mandal}_{village}")[:100]
-                    village_csv = os.path.join(output_dir, "per_village", f"{safe_name}.csv")
-                    df_village = pd.DataFrame(data)
-                    df_village.to_csv(village_csv, index=False, encoding="utf-8-sig")
-
                     progress["completed"][key] = {
                         "rows": len(data),
                         "file": village_csv,
                         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     }
                     progress["total_rows"] += len(data)
-                    worker_rows += len(data)
-                    print(f"{tag} ✓ {len(data)} rows", flush=True)
 
                 elif success and not data:
                     progress["completed"][key] = {
@@ -473,7 +484,6 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                         "file": None,
                         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     }
-                    print(f"{tag} ✓ 0 rows", flush=True)
 
                 else:
                     attempts = progress["failed"].get(key, {}).get("attempts", 0) + 1
@@ -482,8 +492,6 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                         "attempts": attempts,
                         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     }
-                    print(f"{tag} ✗ {error}", flush=True)
-                    worker_errors += 1
 
                     if worker_errors % 5 == 0:
                         print(f"{tag} ⚠ {worker_errors} errors, restarting browser...", flush=True)
@@ -495,8 +503,8 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                         locations_since_restart = BROWSER_RESTART_INTERVAL
                         time.sleep(3)
 
-                # Save progress
-                save_progress_safe(progress, progress_file)
+            # Save progress JSON outside lock too
+            save_progress_safe(progress, progress_file)
 
             worker_scraped += 1
             locations_since_restart += 1

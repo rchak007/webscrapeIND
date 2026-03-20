@@ -15129,6 +15129,171 @@
       "rows": 320,
       "file": "./data/per_village/ANANTAPUR_PAMIDI_RAMAGIRI.csv",
       "timestamp": "2026-02-25 07:43:45"
+    },
+    "ANAKAPALLI|NAKKAPALLI|Rajauyyapeta": {
+      "rows": 0,
+      "file": null,
+      "timestamp": "2026-03-19 21:35:42"
+    },
+    "KAKINADA|GANDEPALLE|BORRAMPALEM": {
+      "rows": 155,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_BORRAMPALEM.csv",
+      "timestamp": "2026-03-19 21:37:05"
+    },
+    "KAKINADA|GANDEPALLE|GANDEPALLE": {
+      "rows": 0,
+      "file": null,
+      "timestamp": "2026-03-19 21:37:59"
+    },
+    "ANAKAPALLI|RAVIKAMATHAM|Chalisingam": {
+      "rows": 210,
+      "file": "./data/per_village/ANAKAPALLI_RAVIKAMATHAM_Chalisingam.csv",
+      "timestamp": "2026-03-19 21:38:16"
+    },
+    "CHITTOOR|BAIREDDI PALLE|ALAPALLE": {
+      "rows": 355,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_ALAPALLE.csv",
+      "timestamp": "2026-03-19 21:38:27"
+    },
+    "KAKINADA|GANDEPALLE|MALLEPALLE": {
+      "rows": 567,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_MALLEPALLE.csv",
+      "timestamp": "2026-03-19 21:44:30"
+    },
+    "ANAKAPALLI|ROLUGUNTA|Addasaram": {
+      "rows": 528,
+      "file": "./data/per_village/ANAKAPALLI_ROLUGUNTA_Addasaram.csv",
+      "timestamp": "2026-03-19 21:44:42"
+    },
+    "ANANTAPUR|PAMIDI|RAMARAJUPALLE": {
+      "rows": 204,
+      "file": "./data/per_village/ANANTAPUR_PAMIDI_RAMARAJUPALLE.csv",
+      "timestamp": "2026-03-19 21:47:18"
+    },
+    "ANANTAPUR|PAMIDI|SORAKAYALAPETA": {
+      "rows": 124,
+      "file": "./data/per_village/ANANTAPUR_PAMIDI_SORAKAYALAPETA.csv",
+      "timestamp": "2026-03-19 21:49:16"
+    },
+    "ANANTAPUR|PAMIDI|THAMBALLAPALLE": {
+      "rows": 90,
+      "file": "./data/per_village/ANANTAPUR_PAMIDI_THAMBALLAPALLE.csv",
+      "timestamp": "2026-03-19 21:50:50"
+    },
+    "CHITTOOR|BAIREDDI PALLE|BAIREDDIPALLE": {
+      "rows": 1220,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_BAIREDDIPALLE.csv",
+      "timestamp": "2026-03-19 21:50:59"
+    },
+    "KAKINADA|GANDEPALLE|MURARI": {
+      "rows": 657,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_MURARI.csv",
+      "timestamp": "2026-03-19 21:51:04"
+    },
+    "ANNAMAYYA|B KOTHAKOTA|BOYYAPPAGARIPALLE": {
+      "rows": 1371,
+      "file": "./data/per_village/ANNAMAYYA_B_KOTHAKOTA_BOYYAPPAGARIPALLE.csv",
+      "timestamp": "2026-03-19 21:51:32"
+    },
+    "KAKINADA|GANDEPALLE|NORTH TIRUPATHI RAJAPUR": {
+      "rows": 163,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_NORTH_TIRUPATHI_RAJAPUR.csv",
+      "timestamp": "2026-03-19 21:52:46"
+    },
+    "ANANTAPUR|PAMIDI|VANKARAJUKALVA": {
+      "rows": 378,
+      "file": "./data/per_village/ANANTAPUR_PAMIDI_VANKARAJUKALVA.csv",
+      "timestamp": "2026-03-19 21:54:04"
+    },
+    "KAKINADA|GANDEPALLE|P.NAYAKAMPALLE": {
+      "rows": 202,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_P_NAYAKAMPALLE.csv",
+      "timestamp": "2026-03-19 21:54:55"
+    },
+    "KAKINADA|GANDEPALLE|SINGARAMPALEM": {
+      "rows": 92,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_SINGARAMPALEM.csv",
+      "timestamp": "2026-03-19 21:56:25"
+    },
+    "CHITTOOR|BAIREDDI PALLE|BELUPALLE": {
+      "rows": 893,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_BELUPALLE.csv",
+      "timestamp": "2026-03-19 21:57:56"
+    },
+    "ANANTAPUR|PEDDAPAPPUR|ATHIRALLADINNE": {
+      "rows": 296,
+      "file": "./data/per_village/ANANTAPUR_PEDDAPAPPUR_ATHIRALLADINNE.csv",
+      "timestamp": "2026-03-19 21:58:04"
+    },
+    "KAKINADA|GANDEPALLE|SURAMPALEM": {
+      "rows": 376,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_SURAMPALEM.csv",
+      "timestamp": "2026-03-19 21:59:27"
+    },
+    "CHITTOOR|BAIREDDI PALLE|CHAPPIDIPALLE": {
+      "rows": 320,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_CHAPPIDIPALLE.csv",
+      "timestamp": "2026-03-19 22:00:49"
+    },
+    "KAKINADA|GANDEPALLE|TALLURU": {
+      "rows": 216,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_TALLURU.csv",
+      "timestamp": "2026-03-19 22:01:32"
+    },
+    "ANANTAPUR|PEDDAPAPPUR|CHAGALLU": {
+      "rows": 420,
+      "file": "./data/per_village/ANANTAPUR_PEDDAPAPPUR_CHAGALLU.csv",
+      "timestamp": "2026-03-19 22:01:35"
+    },
+    "KAKINADA|GANDEPALLE|UPPALAPADU": {
+      "rows": 282,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_UPPALAPADU.csv",
+      "timestamp": "2026-03-19 22:04:03"
+    },
+    "CHITTOOR|BAIREDDI PALLE|DEVADODDI": {
+      "rows": 530,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_DEVADODDI.csv",
+      "timestamp": "2026-03-19 22:04:59"
+    },
+    "CHITTOOR|BAIREDDI PALLE|DHARMAPURE": {
+      "rows": 92,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_DHARMAPURE.csv",
+      "timestamp": "2026-03-19 22:06:27"
+    },
+    "KAKINADA|GANDEPALLE|YELLAMILLI": {
+      "rows": 317,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_YELLAMILLI.csv",
+      "timestamp": "2026-03-19 22:07:01"
+    },
+    "CHITTOOR|BAIREDDI PALLE|DONTHIRALLAPALLE": {
+      "rows": 176,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_DONTHIRALLAPALLE.csv",
+      "timestamp": "2026-03-19 22:08:22"
+    },
+    "ANNAMAYYA|B KOTHAKOTA|GATTU": {
+      "rows": 2370,
+      "file": "./data/per_village/ANNAMAYYA_B_KOTHAKOTA_GATTU.csv",
+      "timestamp": "2026-03-19 22:08:22"
+    },
+    "KAKINADA|GANDEPALLE|YERRAMPALEM": {
+      "rows": 278,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_YERRAMPALEM.csv",
+      "timestamp": "2026-03-19 22:09:13"
+    },
+    "ANANTAPUR|PEDDAPAPPUR|CHINNAYAKKALURU": {
+      "rows": 1098,
+      "file": "./data/per_village/ANANTAPUR_PEDDAPAPPUR_CHINNAYAKKALURU.csv",
+      "timestamp": "2026-03-19 22:09:20"
+    },
+    "CHITTOOR|BAIREDDI PALLE|GOLLACHEMANAPALLE": {
+      "rows": 264,
+      "file": "./data/per_village/CHITTOOR_BAIREDDI_PALLE_GOLLACHEMANAPALLE.csv",
+      "timestamp": "2026-03-19 22:12:10"
+    },
+    "KAKINADA|GANDEPALLE|ZAMINDAR RAGAMPETA": {
+      "rows": 352,
+      "file": "./data/per_village/KAKINADA_GANDEPALLE_ZAMINDAR_RAGAMPETA.csv",
+      "timestamp": "2026-03-19 22:12:51"
     }
   },
   "failed": {
@@ -15854,13 +16019,13 @@
     },
     "ANAKAPALLI|MAKAVARAPALEM|Bheemaboinapalem": {
       "error": "Page failed to load",
-      "attempts": 1,
-      "timestamp": "2026-02-24 19:44:17"
+      "attempts": 2,
+      "timestamp": "2026-03-19 21:32:40"
     },
     "ANAKAPALLI|MAKAVARAPALEM|Burugupalem": {
       "error": "Page failed to load",
-      "attempts": 1,
-      "timestamp": "2026-02-24 19:45:22"
+      "attempts": 2,
+      "timestamp": "2026-03-19 21:33:43"
     },
     "ANAKAPALLI|NAKKAPALLI|Rajauyyapeta": {
       "error": "Page failed to load",
@@ -15876,9 +16041,54 @@
       "error": "Could not select village: Addasaram",
       "attempts": 1,
       "timestamp": "2026-02-24 23:57:20"
+    },
+    "CHITTOOR|BAIREDDI PALLE|ALAPALLE": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:32:40"
+    },
+    "ANNAMAYYA|B KOTHAKOTA|B.KOTHAKOTA": {
+      "error": "Page failed to load",
+      "attempts": 2,
+      "timestamp": "2026-03-19 21:35:31"
+    },
+    "KAKINADA|GANDEPALLE|BORRAMPALEM": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:32:40"
+    },
+    "ANNAMAYYA|B KOTHAKOTA|BADIKAYALAPALLE": {
+      "error": "Village dropdown empty for B KOTHAKOTA",
+      "attempts": 2,
+      "timestamp": "2026-03-19 21:37:06"
+    },
+    "KAKINADA|GANDEPALLE|GANDEPALLE": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:33:43"
+    },
+    "CHITTOOR|BAIREDDI PALLE|BAIREDDIPALLE": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:33:43"
+    },
+    "ANNAMAYYA|B KOTHAKOTA|BEERANGI": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:38:09"
+    },
+    "ANANTAPUR|PEDDAPAPPUR|AMALLADINNE": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 21:55:07"
+    },
+    "CHITTOOR|BAIREDDI PALLE|GANGINAYANIPALLE": {
+      "error": "Page failed to load",
+      "attempts": 1,
+      "timestamp": "2026-03-19 22:09:24"
     }
   },
-  "total_rows": 373113,
+  "total_rows": 387709,
   "started_at": "2026-02-21 10:27:05",
-  "last_updated": "2026-03-12 14:46:54"
+  "last_updated": "2026-03-19 22:12:51"
 }
