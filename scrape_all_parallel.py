@@ -349,10 +349,20 @@ def load_progress(progress_file):
 
 
 def save_progress_safe(progress, progress_file):
+    """Write progress atomically — write to temp file first, then rename."""
     with progress_lock:
         progress["last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open(progress_file, "w") as f:
-            json.dump(progress, f, indent=2)
+        tmp_file = progress_file + ".tmp"
+        try:
+            with open(tmp_file, "w") as f:
+                json.dump(progress, f)  # No indent — much faster for large dicts
+            # Atomic rename — either fully replaces or doesn't
+            if os.name == 'nt':  # Windows can't rename over existing file
+                if os.path.exists(progress_file):
+                    os.remove(progress_file)
+            os.rename(tmp_file, progress_file)
+        except Exception as e:
+            print(f"  ⚠ Could not save progress: {e}", flush=True)
 
 
 def location_key(district, mandal, village):
@@ -445,7 +455,7 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                 worker_id=worker_id
             )
 
-            # Save CSV OUTSIDE the lock — file I/O is slow and was deadlocking workers
+            # Save CSV OUTSIDE the lock — file I/O is slow
             village_csv = None
             if success and data:
                 for row_data in data:
@@ -468,7 +478,7 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                 print(f"{tag} ✗ {error}", flush=True)
                 worker_errors += 1
 
-            # Update progress dict INSIDE the lock — fast dict update only
+            # Update progress dict INSIDE lock — fast dict update only
             with progress_lock:
                 if success and data:
                     progress["completed"][key] = {
@@ -503,8 +513,9 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                         locations_since_restart = BROWSER_RESTART_INTERVAL
                         time.sleep(3)
 
-            # Save progress JSON outside lock too
-            save_progress_safe(progress, progress_file)
+            # Save progress JSON every 5 villages (not every single one — too slow with 4 workers)
+            if worker_scraped % 5 == 0:
+                save_progress_safe(progress, progress_file)
 
             worker_scraped += 1
             locations_since_restart += 1
@@ -520,6 +531,8 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
         print(f"{tag} FATAL ERROR: {e}", flush=True)
         import traceback
         traceback.print_exc()
+        # Save progress on crash
+        save_progress_safe(progress, progress_file)
 
     finally:
         if driver:
@@ -527,6 +540,8 @@ def worker_scrape_districts(worker_id, districts_chunk, df_master, progress,
                 driver.quit()
             except Exception:
                 pass
+        # Always save progress when worker exits
+        save_progress_safe(progress, progress_file)
 
     elapsed_str = str(timedelta(seconds=int(time.time() - worker_start)))
     print(f"\n{tag} ═══ FINISHED: {worker_scraped} locations, {worker_rows} rows, {worker_errors} errors, time: {elapsed_str} ═══", flush=True)
@@ -588,6 +603,35 @@ def main():
     # Load progress
     progress_file = os.path.join(args.output_dir, "scrape_progress.json")
     progress = load_progress(progress_file)
+
+    # FALLBACK: If progress file seems stale, rebuild from per_village files
+    per_village_dir = os.path.join(args.output_dir, "per_village")
+    village_files = [f for f in os.listdir(per_village_dir) if f.endswith(".csv")] if os.path.exists(per_village_dir) else []
+    if len(village_files) > len(progress.get("completed", {})) + 10:
+        print(f"\n  ⚠ Progress file has {len(progress.get('completed', {}))} entries but found {len(village_files)} village files", flush=True)
+        print(f"  Rebuilding progress from per_village files...", flush=True)
+        rebuilt_count = 0
+        for vf in village_files:
+            try:
+                df_v = pd.read_csv(os.path.join(per_village_dir, vf), encoding="utf-8-sig", nrows=1)
+                if "_district" in df_v.columns and "_mandal" in df_v.columns and "_village" in df_v.columns:
+                    d = df_v["_district"].iloc[0]
+                    m = df_v["_mandal"].iloc[0]
+                    v = df_v["_village"].iloc[0]
+                    key = location_key(d, m, v)
+                    if key not in progress["completed"]:
+                        row_count = sum(1 for _ in open(os.path.join(per_village_dir, vf))) - 1
+                        progress["completed"][key] = {
+                            "rows": max(row_count, 0),
+                            "file": os.path.join(per_village_dir, vf),
+                            "timestamp": "rebuilt",
+                        }
+                        rebuilt_count += 1
+            except Exception:
+                pass
+        if rebuilt_count > 0:
+            print(f"  ✓ Rebuilt {rebuilt_count} entries from village files", flush=True)
+            save_progress_safe(progress, progress_file)
 
     completed_count = len(progress["completed"])
     failed_count = len(progress["failed"])
